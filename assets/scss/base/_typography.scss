@@ -27,6 +27,15 @@ body {
             }
             h2 {
                 font-size: 70px;
+                max-width: 380px;
+            }
+        }
+    }
+    @media #{$res600} {
+        .banner .banner__content .banner__content__top {
+            h2 {
+                font-size: 50px;
+                max-width: 280px;
             }
         }
     }
@@ -35,8 +44,9 @@ body {
             p {
                 font-size: 30px;
             }
-            h1 {
+            h2 {
                 font-size: 40px;
+                width: 380px;
             }
         }
         .header .header__menu-icon {

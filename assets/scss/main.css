@@ -7475,6 +7475,15 @@ body {
   html .banner .banner__content .banner__content__top h2,
   body .banner .banner__content .banner__content__top h2 {
     font-size: 70px;
+    max-width: 380px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html .banner .banner__content .banner__content__top h2,
+  body .banner .banner__content .banner__content__top h2 {
+    font-size: 50px;
+    max-width: 280px;
   }
 }
 
@@ -7483,9 +7492,10 @@ body {
   body .banner .banner__content .banner__content__top p {
     font-size: 30px;
   }
-  html .banner .banner__content .banner__content__top h1,
-  body .banner .banner__content .banner__content__top h1 {
+  html .banner .banner__content .banner__content__top h2,
+  body .banner .banner__content .banner__content__top h2 {
     font-size: 40px;
+    width: 380px;
   }
   html .header .header__menu-icon,
   body .header .header__menu-icon {
@@ -8401,6 +8411,12 @@ table {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .footer .footer__content .footer__content__ins {
+    padding: 20px;
+  }
+}
+
 .footer .footer__content .footer__content__ins img {
   width: 90px;
   height: 90px;
@@ -8464,6 +8480,7 @@ table {
   font-weight: bold;
   position: relative;
   z-index: 1;
+  width: 680px;
 }
 
 .banner .banner__content .banner__content__top .top--border-bottom {
@@ -8479,6 +8496,12 @@ table {
   border-bottom: 3px solid;
   width: 50px;
   margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner .banner__content .banner__content__top .top--border-bottom::after {
+    left: 43%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
