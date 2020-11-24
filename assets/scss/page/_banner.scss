@@ -4,8 +4,9 @@
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     background-repeat: no-repeat;
+    padding-top: 80px;
     .banner__content {
-        color: white;
+        color: #fff;
         .banner__content__top {
             align-items: center;
             justify-content: center;
@@ -17,7 +18,7 @@
                 font-family: 'Kaushan Script', cursive;
                 font-size: 65px;
             }
-            h1 {
+            h2 {
                 font-size: 120px;
                 font-weight: bold;
                 position: relative;

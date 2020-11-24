@@ -1,10 +1,14 @@
 .header {
     padding: 20px 170px;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    z-index: 10;
     @media #{$res800} {
         padding: 50px;
     }
     a {
-        color: white;
+        color: #fff;
         font-weight: 400;
         font-variant: petite-caps;
     }
@@ -16,14 +20,19 @@
     .hide-menu-btn {
         cursor: pointer;
         display: none;
-        i {
-            font-size: 30px;
-            color: white;
-        }
+        font-size: 30px;
+        color: #fff;
         @media #{$res800} {
             display: block;
         }
     }
+    // .show-menu-btn {
+    //     i {
+    //         @media #{$res800} {
+    //             color: black;
+    //         }
+    //     }
+    // }
     .hide-menu-btn {
         @media #{$res800} {
             position: absolute;
@@ -140,7 +149,7 @@
             padding: 0;
             background: transparent;
             border: none;
-            color: white;
+            color: #fff;
             outline: none;
         }
     }

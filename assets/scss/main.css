@@ -7454,8 +7454,8 @@ body {
   body .banner .banner__content .banner__content__top p {
     font-size: 40px;
   }
-  html .banner .banner__content .banner__content__top h1,
-  body .banner .banner__content .banner__content__top h1 {
+  html .banner .banner__content .banner__content__top h2,
+  body .banner .banner__content .banner__content__top h2 {
     font-size: 100px;
   }
 }
@@ -7472,8 +7472,8 @@ body {
   body .banner .banner__content .banner__content__top p {
     font-size: 40px;
   }
-  html .banner .banner__content .banner__content__top h1,
-  body .banner .banner__content .banner__content__top h1 {
+  html .banner .banner__content .banner__content__top h2,
+  body .banner .banner__content .banner__content__top h2 {
     font-size: 70px;
   }
 }
@@ -7658,6 +7658,10 @@ table {
 
 .header {
   padding: 20px 170px;
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  z-index: 10;
 }
 
 @media only screen and (max-width: 800px) {
@@ -7667,7 +7671,7 @@ table {
 }
 
 .header a {
-  color: white;
+  color: #fff;
   font-weight: 400;
   font-variant: petite-caps;
 }
@@ -7682,12 +7686,8 @@ table {
 .header .hide-menu-btn {
   cursor: pointer;
   display: none;
-}
-
-.header .show-menu-btn i,
-.header .hide-menu-btn i {
   font-size: 30px;
-  color: white;
+  color: #fff;
 }
 
 @media only screen and (max-width: 800px) {
@@ -7872,7 +7872,7 @@ table {
   padding: 0;
   background: transparent;
   border: none;
-  color: white;
+  color: #fff;
   outline: none;
 }
 
@@ -7908,7 +7908,7 @@ table {
 .search button {
   height: 36px;
   background-color: #666666;
-  color: white;
+  color: #fff;
   border: none;
   width: 100px;
   font-size: 20px;
@@ -7961,7 +7961,7 @@ table {
   font-size: 40px;
   line-height: 37px;
   margin-left: 50px;
-  color: white;
+  color: #fff;
 }
 
 @media only screen and (max-width: 800px) {
@@ -8062,6 +8062,16 @@ table {
   }
 }
 
+.sticky {
+  background: #fff;
+  z-index: 12;
+}
+
+.sticky i,
+.sticky a {
+  color: #000;
+}
+
 .footer {
   font-family: 'Montserrat', sans-serif;
 }
@@ -8071,7 +8081,7 @@ table {
   margin-bottom: 40px;
 }
 
-.footer .footer__lightItalic {
+.footer .footer__light-italic {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: italic;
@@ -8146,13 +8156,12 @@ table {
 .footer .footer__content .footer__content__contact {
   cursor: context-menu;
   max-width: 480px;
-  max-height: 370px;
 }
 
 @media only screen and (max-width: 1200px) {
   .footer .footer__content .footer__content__contact {
-    max-width: calc(100%/2.5);
-    max-height: 100%;
+    max-width: calc(100%/2.4);
+    padding: 0 0 20px 20px;
   }
 }
 
@@ -8318,7 +8327,7 @@ table {
 @media only screen and (max-width: 1200px) {
   .footer .footer__content .footer__content__blog {
     max-width: calc(100%/3);
-    max-height: 100%;
+    padding: 0 20px 20px 20px;
   }
 }
 
@@ -8382,7 +8391,6 @@ table {
 @media only screen and (max-width: 1200px) {
   .footer .footer__content .footer__content__ins {
     max-width: calc(100%/3.5);
-    max-height: 100%;
   }
 }
 
@@ -8425,10 +8433,11 @@ table {
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   background-repeat: no-repeat;
+  padding-top: 80px;
 }
 
 .banner .banner__content {
-  color: white;
+  color: #fff;
 }
 
 .banner .banner__content .banner__content__top {
@@ -8450,7 +8459,7 @@ table {
   font-size: 65px;
 }
 
-.banner .banner__content .banner__content__top h1 {
+.banner .banner__content .banner__content__top h2 {
   font-size: 120px;
   font-weight: bold;
   position: relative;

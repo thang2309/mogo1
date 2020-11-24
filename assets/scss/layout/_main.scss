@@ -14,7 +14,7 @@
     button {
         height: 36px;
         background-color: #666666;
-        color: white;
+        color: #fff;
         border: none;
         width: 100px;
         font-size: 20px;
@@ -59,7 +59,7 @@
         font-size: 40px;
         line-height: 37px;
         margin-left: 50px;
-        color: white;
+        color: #fff;
         @media #{$res800} {
             font-size: 30px;
         }
@@ -139,5 +139,14 @@
         @media #{$res600} {
             margin: 30px 120px 30px 120px;
         }
+    }
+}
+
+.sticky {
+    background: #fff;
+    z-index: 12;
+    i,
+    a {
+        color: #000;
     }
 }

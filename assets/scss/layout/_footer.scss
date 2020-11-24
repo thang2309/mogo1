@@ -4,7 +4,7 @@
         font-weight: 500;
         margin-bottom: 40px;
     }
-    .footer__lightItalic {
+    .footer__light-italic {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         font-style: italic;
@@ -57,8 +57,8 @@
         .footer__content__contact {
             cursor: context-menu;
             @media #{$res1200} {
-                max-width: calc(100%/2.5);
-                max-height: 100%;
+                max-width: calc(100%/2.4);
+                padding: 0 0 20px 20px;
             }
             @media #{$res974} {
                 max-width: 90%;
@@ -68,7 +68,7 @@
                 min-height: 550px;
             }
             max-width: 480px;
-            max-height: 370px;
+            // max-height: 370px;
             h1 {
                 font-size: 46px;
                 font-weight: bold;
@@ -160,7 +160,7 @@
         .footer__content__blog {
             @media #{$res1200} {
                 max-width: calc(100%/3);
-                max-height: 100%;
+                padding: 0 20px 20px 20px;
             }
             @media #{$res974} {
                 max-width: 90%;
@@ -203,7 +203,6 @@
         .footer__content__ins {
             @media #{$res1200} {
                 max-width: calc(100%/3.5);
-                max-height: 100%;
             }
             @media #{$res974} {
                 max-width: 90%;
