@@ -8408,6 +8408,7 @@ table {
   .footer .footer__content .footer__content__ins {
     max-width: 90%;
     margin: 20px auto;
+    padding: 0 20px 20px 20px;
   }
 }
 
@@ -8450,6 +8451,8 @@ table {
   font-family: 'Montserrat', sans-serif;
   background-repeat: no-repeat;
   padding-top: 80px;
+  background-size: cover;
+  background-repeat: round;
 }
 
 .banner .banner__content {
