@@ -1,0 +1,175 @@
+.work {
+    @media #{$info-phone} {
+        display: flex;
+        margin: 0 20px;
+    }
+    .col-sm-3 {
+        padding: 0;
+        margin: 0;
+    }
+    .work__content {
+        &:hover .work__text {
+            display: block;
+        }
+        position: relative;
+        text-align: center;
+        .work__img {
+            position: relative;
+            z-index: 1;
+            margin: -1.1px;
+            @media #{$info-phone} {
+                // width: 50%;
+                // margin: auto;
+                // display: flex;
+            }
+            img {
+                @media #{$info-phone} {
+                    margin: auto;
+                    display: flex;
+                }
+            }
+        }
+        .work__text {
+            position: absolute;
+            left: 20%;
+            top: 40%;
+            z-index: 1;
+            color: #fff;
+            display: none;
+            cursor: default;
+            @media #{$res1200} {
+                left: 15%;
+                top: 40%;
+            }
+            @media #{$res1000} {
+                left: 12%;
+            }
+            @media #{$info-phone} {}
+            i {
+                font-size: 20px;
+            }
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                @media #{$res1200} {
+                    font-size: 12px;
+                }
+            }
+            span {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-style: italic;
+                font-size: 15px;
+                @media #{$res1200} {
+                    font-size: 12px;
+                }
+            }
+        }
+        .img-01 {
+            &:hover {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 22;
+                    top: 0;
+                    left: 0;
+                    opacity: 0.9;
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92));
+                }
+            }
+        }
+        .img-02 {
+            &:hover {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 22;
+                    top: 0;
+                    left: 0;
+                    opacity: 0.9;
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92));
+                }
+            }
+        }
+        .img-03 {
+            &:hover {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 22;
+                    top: 0;
+                    left: 0;
+                    opacity: 0.9;
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92));
+                }
+            }
+        }
+        .img-04 {
+            &:hover {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 10;
+                    top: 0;
+                    left: 0;
+                    opacity: 0.9;
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92));
+                }
+            }
+        }
+        .img-05 {
+            &:hover {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 10;
+                    top: 0;
+                    left: 0;
+                    opacity: 0.9;
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92));
+                }
+            }
+        }
+        .img-06 {
+            &:hover {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 10;
+                    top: 0;
+                    left: 0;
+                    opacity: 0.9;
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92));
+                }
+            }
+        }
+        .img-07 {
+            &:hover {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 10;
+                    top: 0;
+                    left: 0;
+                    opacity: 0.9;
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92));
+                }
+            }
+        }
+    }
+}
