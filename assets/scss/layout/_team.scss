@@ -207,3 +207,26 @@
             }
         }
     }
+    
+    .icon-design {
+        background-color: #f5f5f5;
+        .icon-design__content {
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+            justify-content: space-between;
+            display: flex;
+            @media #{$res1200} {}
+            .icon-design__img {
+                // margin: 0 30px;
+                max-width: 137px;
+                max-height: 149px;
+            }
+            img:first-child {
+                // margin: 0 30px 0 10px;
+            }
+            img:last-child {
+                // margin: 0 10px 0 30px;
+            }
+        }
+    }

@@ -7848,4 +7848,25 @@ img {
             box-shadow: 4px 4px #82e9d6;
   }
 }
+
+.icon-design {
+  background-color: #f5f5f5;
+}
+
+.icon-design .icon-design__content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-design .icon-design__content .icon-design__img {
+  max-width: 137px;
+  max-height: 149px;
+}
 /*# sourceMappingURL=main.css.map */
