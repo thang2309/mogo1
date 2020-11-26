@@ -7,7 +7,7 @@
         margin: 30px auto 30px auto;
     }
     .about-us__img {
-        @include flex(center, space-between, wrap);
+        @include flex(center, center);
         @media #{$res600} {
             display: block;
             justify-content: center;
@@ -21,6 +21,7 @@
             height: 250px;
             transition: 0.4s;
             background-size: cover;
+            margin: 15px;
             @media #{$info-tablet-horizontal} {
                 width: 370px;
                 height: 250px;
@@ -34,7 +35,7 @@
                 height: 100px;
             }
             @media #{$res600} {
-                width: 50%;
+                width: 200px;
                 margin: 10px auto;
                 height: 150px;
             }
