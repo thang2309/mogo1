@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.use-slick').slick({
+    $('.use-slick-01').slick({
         dots: true,
     });
 });

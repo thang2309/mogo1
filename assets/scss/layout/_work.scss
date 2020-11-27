@@ -1,4 +1,5 @@
 .work {
+    display: block;
     @media #{$info-phone} {
         display: flex;
         margin: 0 20px;
@@ -174,69 +175,51 @@
     }
 }
 
-.feed-back {
-    background-color: #f8f8f8f8;
+// feed-back
+.feed-back-01 {
     .feed-back__content {
         max-width: 1200px;
         margin: auto;
         display: flex !important;
-        padding: 50px;
         @media #{$res1200} {
-            padding: 30px;
             max-width: 1200px;
         }
         @media #{$res600} {
-            padding: 20px;
             max-width: 1200px;
-            display: block !important;
         }
-        .content-icon {
-            width: 150px;
-            height: 150px;
-            font-size: 50px;
-            @media #{$res1200} {
-                max-width: 150px;
-                max-height: 150px;
-                font-size: 40px;
-            }
-            @media #{$res800} {
-                max-width: 70px;
-                max-height: 70px;
-                font-size: 25px;
-            }
-            i {
-                border: 3px solid;
-                padding: 50px;
-                color: $green;
-                @media #{$res1200} {
-                    padding: 30px;
-                }
-                @media #{$res800} {
-                    padding: 10px;
-                }
-            }
+        .content-img {
+            max-width: 80%;
+            width: 80%;
         }
         .content-text {
-            margin-left: 50px;
-            @media #{$res1200} {}
+            padding: 30px 0 0 0;
+            @media #{$res1200} {
+                padding: 0;
+                margin: 0 0 0 20px;
+            }
             @media #{$res800} {
                 margin-left: 10px;
             }
             @media #{$res600} {
-                margin-left: 0;
+                margin-left: 10px;
             }
             p {
                 font-family: myriad-pro, sans-serif;
-                font-size: 24px;
+                font-size: 22px;
                 margin: 5px 0 20px 0;
                 color: #9c9a9a;
                 @media #{$res800} {
                     font-size: 15px;
+                    margin: 5px 0 10px 0;
+                }
+                @media #{$res600} {
+                    font-size: 12px;
+                    margin: 0;
                 }
             }
             span {
                 font-family: 'Kaushan Script', cursive;
-                font-size: 24px;
+                font-size: 22px;
                 position: relative;
                 margin-left: 70px;
                 &::after {
@@ -245,22 +228,26 @@
                     width: 60px;
                     height: 5px;
                     border-bottom: 3.5px solid #f38181;
-                    left: -85%;
+                    left: -55%;
                     top: 50%;
+                    @media #{$res800} {
+                        width: 50px;
+                        left: -70%;
+                        top: 50%;
+                    }
                     @media #{$res600} {
                         border-bottom: 2px solid #f38181;
                         width: 30px;
                     }
                 }
+                @media #{$res800} {
+                    font-size: 17px;
+                }
                 @media #{$res600} {
-                    font-size: 15px;
+                    font-size: 12px;
+                    margin-left: 35px;
                 }
             }
-        }
-    }
-    .slick-next {
-        i {
-            font-size: 30px;
         }
     }
     .slider {
