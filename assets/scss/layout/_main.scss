@@ -1,0 +1,40 @@
+.title-section {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    span {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 24px;
+    }
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        position: relative;
+        line-height: 2;
+        @media #{$res600} {
+            line-height: 1.5;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -30%;
+            width: 60px;
+            height: 4px;
+            background-color: #e46e6e;
+            margin-left: -30px;
+        }
+    }
+    p {
+        font-family: myriad-pro, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        margin: 50px 0 100px 0;
+        color: #9c9a9a;
+        @media #{$res600} {
+            margin: 30px 0 30px 0;
+        }
+    }
+}
