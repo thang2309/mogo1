@@ -7711,4 +7711,163 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92)));
   background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92));
 }
+
+.feed-back {
+  background-color: #f8f8f8f8;
+}
+
+.feed-back .feed-back__content {
+  max-width: 1200px;
+  margin: auto;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .feed-back .feed-back__content {
+    padding: 30px;
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .feed-back .feed-back__content {
+    padding: 20px;
+    max-width: 1200px;
+    display: block !important;
+  }
+}
+
+.feed-back .feed-back__content .content-icon {
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .feed-back .feed-back__content .content-icon {
+    max-width: 150px;
+    max-height: 150px;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .feed-back .feed-back__content .content-icon {
+    max-width: 70px;
+    max-height: 70px;
+    font-size: 25px;
+  }
+}
+
+.feed-back .feed-back__content .content-icon i {
+  border: 3px solid;
+  padding: 50px;
+  color: #54fad4;
+}
+
+@media only screen and (max-width: 1200px) {
+  .feed-back .feed-back__content .content-icon i {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .feed-back .feed-back__content .content-icon i {
+    padding: 10px;
+  }
+}
+
+.feed-back .feed-back__content .content-text {
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .feed-back .feed-back__content .content-text {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .feed-back .feed-back__content .content-text {
+    margin-left: 0;
+  }
+}
+
+.feed-back .feed-back__content .content-text p {
+  font-family: myriad-pro, sans-serif;
+  font-size: 24px;
+  margin: 5px 0 20px 0;
+  color: #9c9a9a;
+}
+
+@media only screen and (max-width: 800px) {
+  .feed-back .feed-back__content .content-text p {
+    font-size: 15px;
+  }
+}
+
+.feed-back .feed-back__content .content-text span {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  position: relative;
+  margin-left: 70px;
+}
+
+.feed-back .feed-back__content .content-text span::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 5px;
+  border-bottom: 3.5px solid #f38181;
+  left: -85%;
+  top: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .feed-back .feed-back__content .content-text span::after {
+    border-bottom: 2px solid #f38181;
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .feed-back .feed-back__content .content-text span {
+    font-size: 15px;
+  }
+}
+
+.feed-back .slick-next i {
+  font-size: 30px;
+}
+
+.feed-back .slider {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.feed-back .slick-slide {
+  margin: 0px 20px;
+}
+
+.feed-back .slick-prev:before,
+.feed-back .slick-next:before {
+  color: black;
+}
+
+.feed-back .slick-slide {
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.feed-back .slick-active {
+  opacity: .5;
+}
+
+.feed-back .slick-current {
+  opacity: 1;
+}
 /*# sourceMappingURL=main.css.map */
