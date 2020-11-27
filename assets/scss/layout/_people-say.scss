@@ -6,7 +6,9 @@
     object-fit: cover;
     background-repeat: no-repeat;
     .say__content {
-        margin: 30px 0;
+        max-width: 1200px;
+        margin: 40px auto;
+        display: flex;
         .say__content__item {
             display: flex;
             margin: 60px 30px;
@@ -16,20 +18,24 @@
             @media #{$info-phone} {
                 margin: 20px 10px;
             }
+            @media #{$info-phone} {
+                display: block;
+            }
             .item__img {
-                width: 80%;
+                width: 50%;
                 @media #{$res1000} {
-                    width: 100%;
+                    width: 80%;
                 }
                 @media #{$info-phone} {
-                    width: 30%;
+                    width: 50%;
+                    margin: auto;
                 }
-                @media #{$res600} {
-                    width: 60%;
-                }
-                @media #{$info-phone-4} {
-                    width: 100%;
-                }
+                // @media #{$res600} {
+                //     width: 60%;
+                // }
+                // @media #{$info-phone-4} {
+                //     width: 100%;
+                // }
             }
             .item__text {
                 @media #{$res1200} {
