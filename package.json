@@ -1,0 +1,23 @@
+{
+    "name": "mogo1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "nodesass": "node-sass assets/scss/main.scss assets/css/main.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thang2309/mogo1.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thang2309/mogo1/issues"
+    },
+    "homepage": "https://github.com/thang2309/mogo1#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "node-sass": "^5.0.0"
+    }
+}

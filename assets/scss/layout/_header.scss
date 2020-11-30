@@ -9,8 +9,9 @@
     }
     a {
         color: #fff;
-        font-weight: 400;
+        font-weight: 500;
         font-variant: petite-caps;
+        font-family: 'Montserrat', sans-serif;
     }
     .logo {
         @include font-size(30px);
@@ -26,13 +27,6 @@
             display: block;
         }
     }
-    // .show-menu-btn {
-    //     i {
-    //         @media #{$res800} {
-    //             color: black;
-    //         }
-    //     }
-    // }
     .hide-menu-btn {
         @media #{$res800} {
             position: absolute;
@@ -119,6 +113,9 @@
             }
             margin: 0 15px 0 0;
         }
+        @media #{$res370} {
+            margin: 0;
+        }
     }
     .header__menu-icon {
         height: 20px;
@@ -126,6 +123,12 @@
         li {
             padding: 0;
             margin: 0 40px 0 5px;
+            @media #{$res370} {
+                margin: 0 10px;
+            }
+        }
+        @media #{$res370} {
+            margin: 0;
         }
         @media #{$res800} {
             display: flex;
@@ -142,7 +145,7 @@
         }
         .header__menu-item {
             @media #{$res800} {
-                margin: 0 20px;
+                margin: 0 30px 0 0;
             }
         }
         button {
