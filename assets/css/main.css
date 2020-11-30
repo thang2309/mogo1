@@ -5625,17 +5625,11 @@ table {
         display: flex;
         justify-content: flex-end;
         width: 100%;
-        margin: 0px 25px;
+        margin: 0px 30px;
         height: auto; } }
-    @media only screen and (max-width: 1024px) {
-      .header .header__menu-icon {
-        margin: 0 20px; } }
-    @media only screen and (max-width: 1550px) {
-      .header .header__menu-icon {
-        margin: 0 20px; } }
     @media only screen and (max-width: 800px) {
       .header .header__menu-icon .header__menu-item {
-        margin: 0 30px 0 0; } }
+        margin: 0 30 px 0 0; } }
     .header .header__menu-icon button {
       padding: 0;
       background: transparent;
