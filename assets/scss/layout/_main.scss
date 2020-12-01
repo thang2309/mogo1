@@ -14,7 +14,9 @@
     button {
         height: 36px;
         background-color: #666666;
-        color: white;
+
+        color: #fff;
+
         border: none;
         width: 100px;
         font-size: 20px;
@@ -59,7 +61,9 @@
         font-size: 40px;
         line-height: 37px;
         margin-left: 50px;
-        color: white;
+
+        color: #fff;
+
         @media #{$res800} {
             font-size: 30px;
         }
@@ -134,10 +138,25 @@
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
+
         margin: 50px 0 100px 0;
         color: #9c9a9a;
         @media #{$res600} {
             margin: 30px 0 30px 0;
         }
     }
+
+        
+        }
+    }
+}
+
+.sticky {
+    background: #fff;
+    z-index: 12;
+    i,
+    a {
+        color: #000;
+    }
+
 }
