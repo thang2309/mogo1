@@ -1,3 +1,4 @@
+
 // Variables + Mixins + Functions
 @import "helpers/variables";
 // Always include variable 1st !
@@ -11,7 +12,11 @@
 // Layout
 @import "layout/common";
 @import "layout/header";
+@import "layout/about-us";
+@import "layout/count";
 @import "layout/main";
+@import "layout/service";
+@import "layout/design";
 @import "layout/what-we-do";
 @import "layout/feed-back";
 @import "layout/sidebar";
