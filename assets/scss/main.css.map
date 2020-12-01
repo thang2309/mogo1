@@ -21,6 +21,8 @@
         "base/font-awesome/_screen-reader.scss",
         "layout/_common.scss",
         "layout/_header.scss",
+
+        "layout/_design.scss",
         "layout/_about-us.scss",
         "layout/_count.scss",
         "layout/_main.scss",
