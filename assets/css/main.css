@@ -8241,6 +8241,8 @@ table {
 
 .title-section {
   max-width: 1200px;
+  text-align: center;
+  margin: auto;
 }
 
 .title-section span {
@@ -8296,6 +8298,45 @@ table {
 .sticky i,
 .sticky a {
   color: #000;
+}
+
+.design {
+  width: 100%;
+  background-image: url("/assets/img/background-enqui.png");
+}
+
+.design .title-section {
+  padding: 40px 0 45px 0;
+}
+
+.design .design__content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.design .design__img {
+  position: relative;
+  text-align: center;
+}
+
+.design .design__img img:last-child {
+  position: absolute;
+  top: 33%;
+  left: 60%;
+}
+
+@media only screen and (max-width: 767px) {
+  .design .design__img img:last-child {
+    max-width: 45%;
+    margin: 50px auto 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .design .design__img {
+    max-width: 80%;
+    margin: auto;
+  }
 }
 
 .footer {
