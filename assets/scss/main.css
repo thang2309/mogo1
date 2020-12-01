@@ -1,12 +1,4 @@
-/* -------------------------------------------------------------
-  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
-  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
-  List of CSS3 Sass Mixins File to be @imported and @included as you need
-  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
-  ENDING css files
-  note: All CSS3 Properties are being supported by Safari 5
-  more info: http://www.findmebyip.com/litmus/#css3-properties
-------------------------------------------------------------- */
+
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
@@ -1832,9 +1824,7 @@
   margin-top: 100px;
 }
 
-/*!
- * Font Awesome Free 5.6.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+
  */
 .fa,
 .fas,
@@ -7401,9 +7391,6 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
-/*!
- * Font Awesome Free 5.6.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
   font-family: 'Font Awesome 5 Brands';
@@ -7417,10 +7404,7 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Brands';
 }
 
-/*!
- * Font Awesome Free 5.6.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
+
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
@@ -7480,6 +7464,17 @@ img {
   max-width: 100%;
 }
 
+
+
+.service {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.service .service__content {
+  text-align: center;
+  padding: 40px 0 0 0;
+  position: relative;
 
 
 
@@ -7748,6 +7743,79 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.service .service__content::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #cccccc;
+  width: 100%;
+}
+
+@media (min-width: 740px) and (max-width: 1110px) {
+  .service .service__content::after {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .service .service__content::after {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .service .service__content {
+    max-width: 100%;
+  }
+}
+
+.service .service__content i {
+  color: #95D1E3;
+  font-size: 30px;
+  width: 40px;
+  margin: 10px 20px 0 0;
+}
+
+.service .service__content .service__content__item {
+  max-width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 20px 40px 20px;
+}
+
+@media (min-width: 740px) and (max-width: 1110px) {
+  .service .service__content .service__content__item {
+    margin: 20px 10px 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .service .service__content .service__content__item {
+    margin: 10px;
+  }
+}
+
+.service .service__content .service__content__text {
+  max-width: 270px;
+  text-align: left;
+}
+
+.service .service__content .service__content__text p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.service .service__content .service__content__text span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #666666;
+  font-size: 14px;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   margin: 10px;
