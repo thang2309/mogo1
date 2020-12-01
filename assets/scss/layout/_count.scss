@@ -1,0 +1,46 @@
+.count {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: auto;
+    height: 270px;
+    position: relative;
+    color: white;
+    background-color: #95E1D3;
+    cursor: context-menu;
+    .count__content {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        height: 100%;
+    }
+    .count--border {
+        text-align: center;
+        max-width: 240px;
+        width: 100%;
+        padding: 80px 0 0 0;
+    }
+    .count--border:not(:last-child) {
+        border-right: 1px solid #B5EAE0;
+    }
+    p {
+        font-size: 72px;
+        font-weight: bold;
+        padding-bottom: 15px;
+        @media #{$res800} {
+            font-size: 35px;
+        }
+        @media #{$res370} {
+            font-size: 20px;
+        }
+    }
+    span {
+        font-size: 14px;
+        font-weight: 500;
+        @media #{$res800} {
+            font-size: 13px;
+        }
+        @media #{$res370} {
+            font-size: 10px;
+        }
+    }
+}
