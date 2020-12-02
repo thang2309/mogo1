@@ -61,15 +61,15 @@ function myFunction3() {
         y2.style.transform = "rotate(0deg)";
     }
 }
-
 $(document).ready(function() {
     $('.use-slick').slick({
         dots: true,
     });
-$(window).scroll(function() {
-    if ($(window).scrollTop() >= 700) {
-        $('header').addClass("sticky");
-    } else {
-        $('header').removeClass("sticky");
-    }
+    $(window).scroll(function() {
+        if ($(window).scrollTop() >= 700) {
+            $('header').addClass("sticky");
+        } else {
+            $('header').removeClass("sticky");
+        }
+    });
 });
