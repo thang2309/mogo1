@@ -9444,6 +9444,110 @@ table {
   opacity: 1;
 }
 
+.say {
+  max-width: 100%;
+  background-image: url("/assets/img/background-say.png");
+  padding: 70px 0 15px 0;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.say .say__content {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.say .say__content .say__content__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 60px 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .say .say__content .say__content__item {
+    margin: 40px 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .say .say__content .say__content__item {
+    margin: 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .say .say__content .say__content__item {
+    display: block;
+  }
+}
+
+.say .say__content .say__content__item .item__img {
+  width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .say .say__content .say__content__item .item__img {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .say .say__content .say__content__item .item__img {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .say .say__content .say__content__item .item__text {
+    margin-left: 20px;
+  }
+}
+
+.say .say__content .say__content__item .item__text h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.say .say__content .say__content__item .item__text span,
+.say .say__content .say__content__item .item__text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.say .say__content .say__content__item .item__text span {
+  font-weight: 300;
+  font-style: italic;
+  position: relative;
+  padding: 15px 0;
+  line-height: 2;
+}
+
+.say .say__content .say__content__item .item__text span::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 5px;
+  border-bottom: 3px solid #e46e6e;
+  bottom: 0;
+  left: 0;
+}
+
+.say .say__content .say__content__item .item__text p {
+  font-weight: 500;
+  color: #9c9a9a;
+  line-height: 1.5;
+  margin-top: 25px;
+}
+
 .footer {
   font-family: 'Montserrat', sans-serif;
 }
