@@ -9146,6 +9146,15 @@ table {
       flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 964px) {
+  .container-fluid .work {
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .container-fluid .work {
     display: -webkit-box;
