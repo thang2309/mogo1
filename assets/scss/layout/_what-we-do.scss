@@ -1,6 +1,7 @@
 .what-we-do {
     max-width: 1200px;
     margin: 50px auto 100px auto;
+
     .what-we-do__content {
         @media #{$res1200} {
             max-width: 1200px;
