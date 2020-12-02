@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $('.use-slick-01').slick({
+        dots: true,
+    });
 var x1 = document.getElementById("text-01");
 var y1 = document.getElementById("icon-tranform-01");
 var z1 = document.getElementById("text__title-01");
