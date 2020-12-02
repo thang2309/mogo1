@@ -1,6 +1,9 @@
 .design {
     width: 100%;
     background-image: url("/assets/img/background-enqui.png");
+    padding: 40px 0 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
     .title-section {
         padding: 40px 0 45px 0;
     }
@@ -23,6 +26,9 @@
         @media #{$info-phone} {
             max-width: 80%;
             margin: auto;
+        }
+        .design__img-bottom {
+            vertical-align: bottom;
         }
     }
 }

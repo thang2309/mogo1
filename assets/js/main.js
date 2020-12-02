@@ -78,3 +78,13 @@ $(document).ready(function() {
         }
     });
 });
+
+
+// $('body').imagesLoaded(function() {
+//     $('div.work').GridHorizontal({
+//         item: '.item',
+//         minWidth: 380,
+//         maxRowHeight: 310,
+//         gutter: -1,
+//     })
+// });

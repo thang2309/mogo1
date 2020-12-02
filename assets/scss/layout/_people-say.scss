@@ -37,6 +37,9 @@
                 //     width: 100%;
                 // }
             }
+            .text-margin {
+                margin-left: 20px;
+            }
             .item__text {
                 @media #{$res1200} {
                     margin-left: 20px;

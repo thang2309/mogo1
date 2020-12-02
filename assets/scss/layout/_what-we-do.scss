@@ -1,8 +1,8 @@
 .what-we-do {
     max-width: 1200px;
     margin: 50px auto 100px auto;
-
     .what-we-do__content {
+        min-height: 400px;
         @media #{$res1200} {
             max-width: 1200px;
         }
@@ -25,7 +25,6 @@
                 margin: 10px auto;
             }
         }
-        img {}
         .what-we-do__content__text {
             width: 600px;
             @media #{$res1200} {
