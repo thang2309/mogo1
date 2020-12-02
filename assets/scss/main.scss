@@ -1,26 +1,32 @@
+
+
+
+
 // Variables + Mixins + Functions
 @import "helpers/variables";
-
 // Always include variable 1st !
 @import "helpers/mixins";
-
 // Base
 @import "base/typography";
-
 // Vendors
 // Import jQuery lib, Bootstrap ... etc
-
 // Themes
 // If we have themes, import specific styles here
-
 // Layout
 @import "layout/common";
 @import "layout/header";
+@import "layout/about-us";
+@import "layout/count";
 @import "layout/main";
+@import "layout/service";
+@import "layout/design";
+@import "layout/what-we-do";
+@import "layout/feed-back";
+@import "layout/team";
+@import "layout/work";
+@import "layout/people-say";
 @import "layout/blog";
 @import "layout/sidebar";
 @import "layout/footer";
-
-
 // Page specific styles
 @import "page/banner";
