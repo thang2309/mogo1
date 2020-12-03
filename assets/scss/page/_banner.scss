@@ -1,6 +1,6 @@
 .banner {
     min-height: 700px;
-    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url('/assets/img/banner6.png');
+    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url('assets/img/banner6.png');
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     background-repeat: no-repeat;
@@ -38,10 +38,10 @@
                     border-bottom: 3px solid;
                     width: 50px;
                     margin: auto;
-                    @media #{$info-phone} {
+                    @media #{$res800} {
                         left: 43%;
                     }
-                    @media #{$info-phone-4} {
+                    @media #{$res370} {
                         left: 39%;
                     }
                 }
@@ -60,7 +60,7 @@
                     color: black;
                     transition: 0.4s all;
                 }
-                @media #{$info-phone-4} {
+                @media #{$res370} {
                     width: 100px;
                 }
             }

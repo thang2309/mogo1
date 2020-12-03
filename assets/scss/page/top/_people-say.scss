@@ -18,10 +18,10 @@
             @media #{$res1200} {
                 margin: 40px 15px;
             }
-            @media #{$info-phone} {
+            @media #{$res800} {
                 margin: 20px 10px;
             }
-            @media #{$info-phone} {
+            @media #{$res800} {
                 display: block;
             }
             .item__img {
@@ -29,16 +29,13 @@
                 @media #{$res1000} {
                     width: 80%;
                 }
-                @media #{$info-phone} {
+                @media #{$res800} {
                     width: 50%;
                     margin: auto;
                 }
-                // @media #{$res600} {
-                //     width: 60%;
-                // }
-                // @media #{$info-phone-4} {
-                //     width: 100%;
-                // }
+                @media #{$res600} {
+                    width: 60%;
+                }
             }
             .text-margin {
                 margin-left: 20px;

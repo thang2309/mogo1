@@ -47,7 +47,7 @@
             .footer__content {
                 @include flex(center,
                 space-between);
-                @media #{$res974} {
+                @media #{$res1000} {
                     display: block;
                     padding: 45px 0 40px 0;
                 }
@@ -61,7 +61,7 @@
                         max-width: calc(100%/2.4);
                         padding: 0 0 20px 20px;
                     }
-                    @media #{$res974} {
+                    @media #{$res1000} {
                         max-width: 90%;
                         margin: auto;
                     }
@@ -96,6 +96,9 @@
                         border-top: 1px solid #cccccc;
                         line-height: 3;
                         display: flex;
+                        @media #{$res1000} {
+                            margin: 10px 0;
+                        }
                         >div {
                             margin-left: 20px;
                         }
@@ -110,9 +113,6 @@
                             @media #{$res370} {
                                 margin: 0 1px;
                             }
-                        }
-                        @media #{$res974} {
-                            margin: 10px 0;
                         }
                     }
                     .contact__sub {
@@ -167,7 +167,7 @@
                         max-width: calc(100%/3);
                         padding: 0 20px 20px 20px;
                     }
-                    @media #{$res974} {
+                    @media #{$res1000} {
                         max-width: 90%;
                         margin: 20px auto;
                     }
@@ -200,7 +200,7 @@
                         text-align: left;
                         margin: auto;
                         display: grid;
-                        @media #{$res974} {
+                        @media #{$res1000} {
                             width: 100%;
                         }
                     }
@@ -209,7 +209,7 @@
                     @media #{$res1200} {
                         max-width: calc(100%/3.5);
                     }
-                    @media #{$res974} {
+                    @media #{$res1000} {
                         max-width: 90%;
                         margin: 20px auto;
                         padding: 0 20px 20px 20px;

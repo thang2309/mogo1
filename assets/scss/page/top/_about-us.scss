@@ -25,11 +25,11 @@
             transition: 0.4s;
             background-size: cover;
             margin: 15px;
-            @media #{$info-tablet-horizontal} {
+            @media #{$res1200} {
                 width: 370px;
                 height: 250px;
             }
-            @media #{$res1140} {
+            @media #{$res1000} {
                 width: 260px;
                 height: 160px;
             }

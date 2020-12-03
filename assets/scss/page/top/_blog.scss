@@ -7,14 +7,14 @@
         max-width: 1200px;
         display: flex;
         margin: 40px auto;
-        @media #{$info-phone} {
+        @media #{$res800} {
             display: block;
             justify-content: center;
         }
         .blog__content__item {
             width: calc(1200px/3);
             padding: 15px;
-            @media #{$info-phone} {
+            @media #{$res800} {
                 margin: auto;
                 padding: 0;
                 max-width: 90%;
@@ -23,7 +23,7 @@
                 position: relative;
                 text-align: center;
                 margin: 20px 0;
-                @media #{$info-phone} {
+                @media #{$res800} {
                     margin: 10px 0;
                 }
                 .item__img-abs {
@@ -36,12 +36,12 @@
                     height: 70px;
                     color: #fff;
                     padding: 15px 0;
-                    @media #{$info-tablet-horizontal} {
+                    @media #{$res1200} {
                         width: 50px;
                         height: 60px;
                         padding: 10px 0;
                     }
-                    @media #{$info-tablet-vertical} {
+                    @media #{$res1000} {
                         width: 40px;
                         height: 50px;
                         padding: 10px 0;
@@ -50,10 +50,10 @@
                         font-family: 'Montserrat', sans-serif;
                         font-size: 25px;
                         font-weight: bold;
-                        @media #{$info-tablet-horizontal} {
+                        @media #{$res1200} {
                             font-size: 22px;
                         }
-                        @media #{$info-tablet-vertical} {
+                        @media #{$res1000} {
                             font-size: 20px;
                         }
                     }
@@ -63,10 +63,10 @@
                         font-style: italic;
                         font-size: 13px;
                         line-height: 1;
-                        @media #{$info-tablet-vertical} {
+                        @media #{$res1200} {
                             font-size: 11px;
                         }
-                        @media #{$info-phone} {
+                        @media #{$res1000} {
                             font-size: 9px;
                         }
                     }
@@ -79,7 +79,7 @@
                     font-weight: 400;
                     color: #9c9a9a;
                     margin: 20px 0;
-                    @media #{$info-phone} {
+                    @media #{$res800} {
                         margin: 5px 0;
                     }
                 }
@@ -97,7 +97,7 @@
                     font-family: 'Montserrat', sans-serif;
                     font-size: 14px;
                     font-weight: 500;
-                    @media #{$info-phone} {
+                    @media #{$res800} {
                         font-size: 13px;
                     }
                 }

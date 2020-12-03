@@ -15,17 +15,17 @@
 // Layout
 @import "layout/common";
 @import "layout/header";
-@import "layout/about-us";
-@import "layout/count";
+@import "page/top/about-us";
+@import "page/top/count";
 @import "layout/main";
-@import "layout/service";
-@import "layout/design";
-@import "layout/what-we-do";
-@import "layout/feed-back";
-@import "layout/team";
-@import "layout/work";
-@import "layout/people-say";
-@import "layout/blog";
+@import "page/top/service";
+@import "page/top/design";
+@import "page/top/what-we-do";
+@import "page/top/feed-back";
+@import "page/top/team";
+@import "page/top/work";
+@import "page/top/people-say";
+@import "page/top/blog";
 @import "layout/sidebar";
 @import "layout/footer";
 // Page specific styles

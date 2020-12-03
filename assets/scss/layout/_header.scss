@@ -52,7 +52,7 @@
         }
     }
     .header__menu {
-        margin: 0 0 0 35%;
+        margin-left: 35%;
         @media #{$res800} {
             position: fixed;
             width: 100%;
@@ -84,16 +84,16 @@
         }
         .header__menu-item {
             &:nth-last-child(2) {
-                margin: 0 0 0 0;
+                margin: 0;
             }
         }
     }
     .header__menu-item {
-        margin: 0 55px 0 0;
+        margin-right: 55px;
         font-size: 15px;
         list-style: none;
         &:nth-last-child(1) {
-            margin: 0 0 0 0;
+            margin: 0;
         }
         @media #{$res800} {
             padding: 20px 0;
@@ -101,17 +101,17 @@
             line-height: normal;
             margin: 0;
         }
-        @media #{$res1350} {
+        @media #{$res1200} {
             &:nth-last-child(1) {
-                margin: 0 0 0 0;
+                margin: 0;
             }
             margin: 0 30px 0 0;
         }
-        @media #{$res950} {
+        @media #{$res1000} {
             &:nth-last-child(1) {
-                margin: 0 0 0 0;
+                margin: 0;
             }
-            margin: 0 15px 0 0;
+            margin-right:15px;
         }
         @media #{$res370} {
             margin: 0;
@@ -120,13 +120,6 @@
     .header__menu-icon {
         height: 20px;
         display: flex;
-        li {
-            padding: 0;
-            margin: 0 40px 0 5px;
-            @media #{$res370} {
-                margin: 0 10px;
-            }
-        }
         @media #{$res370} {
             margin: 0;
         }
@@ -137,9 +130,11 @@
             margin: 0px 30px;
             height: auto;
         }
-        .header__menu-item {
-            @media #{$res800} {
-                margin: 0 30 px 0 0;
+        li {
+            padding: 0;
+            margin: 0 40px 0 5px;
+            @media #{$res370} {
+                margin: 0 10px;
             }
         }
         button {
@@ -151,10 +146,3 @@
         }
     }
 }
-
-// .nav {
-//   @media #{$info-phone} {
-//   }
-//   @media screen and (max-width: 767px){
-//   }
-// }

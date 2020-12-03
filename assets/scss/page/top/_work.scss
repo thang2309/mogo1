@@ -13,14 +13,14 @@
             max-width: 1700px;
             margin: auto;
             justify-content: center;
-            @media #{$res964} {
+            @media #{$res800} {
                 margin: auto;
                 justify-content: center;
             }
-            @media #{$info-phone} {
-                display: flex;
-                margin: 0 20px;
-            }
+            // @media #{$info-phone} {
+            //     display: flex;
+            //     margin: 0 20px;
+            // }
             .work-width {
                 width: calc(100%/4);
             }
@@ -39,18 +39,18 @@
                 .work__img {
                     position: relative;
                     z-index: 1;
-                    @media #{$info-phone} {
-                        // width: 50%;
-                        // margin: auto;
-                        // display: flex;
-                    }
+                    // @media #{$info-phone} {
+                    //     // width: 50%;
+                    //     // margin: auto;
+                    //     // display: flex;
+                    // }
                     img {
                         max-width: 100%;
                         // margin-top: -5px;
                         vertical-align: bottom;
-                        @media #{$info-phone} {
-                            display: flex;
-                        }
+                        // @media #{$info-phone} {
+                        //     display: flex;
+                        // }
                     }
                 }
                 .work__text {
@@ -62,7 +62,6 @@
                     display: none;
                     cursor: default;
                     width: 100%;
-                    @media #{$info-phone} {}
                     i {
                         font-size: 20px;
                     }

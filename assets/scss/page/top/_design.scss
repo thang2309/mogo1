@@ -21,12 +21,12 @@
             position: absolute;
             top: 33%;
             left: 60%;
-            @media #{$info-phone} {
+            @media #{$res800} {
                 max-width: 45%;
                 margin: 50px auto 0 auto;
             }
         }
-        @media #{$info-phone} {
+        @media #{$res800} {
             max-width: 80%;
             margin: auto;
         }

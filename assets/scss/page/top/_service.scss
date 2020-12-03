@@ -13,10 +13,7 @@
             position: absolute;
             border-bottom: 1px solid #cccccc;
             width: 100%;
-            @media #{$res740to1110} {
-                border: none;
-            }
-            @media #{$res740} {
+            @media #{$res1200} {
                 border: none;
             }
         }
@@ -34,10 +31,10 @@
             max-width: 350px;
             display: flex;
             margin: 40px 20px 40px 20px;
-            @media #{$res740to1110} {
+            @media #{$res1200} {
                 margin: 20px 10px 20px 10px;
             }
-            @media #{$res740} {
+            @media #{$res800} {
                 margin: 10px;
             }
         }
