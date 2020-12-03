@@ -7900,6 +7900,12 @@ table {
   text-align: center;
 }
 
+@media only screen and (max-width: 800px) {
+  .about-us {
+    margin: 35px auto;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .about-us {
     margin: 30px auto 30px auto;
@@ -8311,6 +8317,12 @@ table {
   max-width: 1200px;
 }
 
+@media only screen and (max-width: 800px) {
+  .service {
+    margin: 50px auto;
+  }
+}
+
 .service .service__content {
   text-align: center;
   padding: 40px 0 0 0;
@@ -8407,6 +8419,12 @@ table {
   background-size: cover;
 }
 
+@media only screen and (max-width: 800px) {
+  .design {
+    margin: 35px 0;
+  }
+}
+
 .design .title-section {
   padding: 40px 0 45px 0;
 }
@@ -8448,6 +8466,12 @@ table {
 .what-we-do {
   max-width: 1200px;
   margin: 50px auto 100px auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .what-we-do {
+    margin: 35px auto;
+  }
 }
 
 .what-we-do .what-we-do__content {
@@ -8789,6 +8813,12 @@ table {
   max-width: 1200px;
   margin: 85px auto 100px auto;
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .team {
+    margin: 35px auto;
+  }
 }
 
 .team .team__content {
@@ -9144,6 +9174,11 @@ table {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  max-width: 1700px;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media only screen and (max-width: 964px) {
@@ -9178,6 +9213,12 @@ table {
   display: block;
 }
 
+.container-fluid .work .work__content .img-02,
+.container-fluid .work .work__content .img-04,
+.container-fluid .work .work__content .img-07 {
+  margin-top: -3px;
+}
+
 .container-fluid .work .work__content .work__img {
   position: relative;
   z-index: 1;
@@ -9198,25 +9239,13 @@ table {
 
 .container-fluid .work .work__content .work__text {
   position: absolute;
-  left: 28%;
-  top: 42%;
+  left: 0;
+  top: 44%;
   z-index: 1;
   color: #fff;
   display: none;
   cursor: default;
-}
-
-@media only screen and (max-width: 1200px) {
-  .container-fluid .work .work__content .work__text {
-    left: 15%;
-    top: 40%;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .container-fluid .work .work__content .work__text {
-    left: 12%;
-  }
+  width: 100%;
 }
 
 .container-fluid .work .work__content .work__text i {
@@ -9251,7 +9280,7 @@ table {
 .container-fluid .work .work__content .img-01:hover::after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 100;
   height: 100%;
   z-index: 22;
   top: 0;
@@ -9494,6 +9523,12 @@ table {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 800px) {
+  .say {
+    padding: 35px 0;
+  }
+}
+
 .say .say__content {
   max-width: 1200px;
   margin: 40px auto;
@@ -9596,6 +9631,12 @@ table {
   margin: 60px 0 40px 0;
 }
 
+@media only screen and (max-width: 800px) {
+  .blog {
+    margin: 35px 0;
+  }
+}
+
 .blog .blog__content {
   max-width: 1200px;
   display: -webkit-box;
@@ -9654,7 +9695,7 @@ table {
   .blog .blog__content .blog__content__item .item__img .item__img-abs {
     width: 50px;
     height: 60px;
-    padding: 7px 0;
+    padding: 10px 0;
   }
 }
 
@@ -9662,7 +9703,7 @@ table {
   .blog .blog__content .blog__content__item .item__img .item__img-abs {
     width: 40px;
     height: 50px;
-    padding: 5px 0;
+    padding: 10px 0;
   }
 }
 

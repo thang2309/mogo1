@@ -3,6 +3,9 @@
         max-width: 1200px;
         margin: 85px auto 100px auto;
         text-align: center;
+        @media #{$res800} {
+            margin: 35px auto;
+        }
         .team__content {
             @include flex(center, center);
             .team__content__card {

@@ -1,6 +1,9 @@
 .service {
     margin: 110px auto;
     max-width: 1200px;
+    @media #{$res800} {
+        margin: 50px auto;
+    }
     .service__content {
         text-align: center;
         padding: 40px 0 0 0;

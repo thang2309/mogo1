@@ -1,6 +1,9 @@
 .what-we-do {
     max-width: 1200px;
     margin: 50px auto 100px auto;
+    @media #{$res800} {
+        margin: 35px auto;
+    }
     .what-we-do__content {
         min-height: 400px;
         @media #{$res1200} {

@@ -5,6 +5,9 @@
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
+    @media #{$res800} {
+        padding: 35px 0;
+    }
     .say__content {
         max-width: 1200px;
         margin: 40px auto;
