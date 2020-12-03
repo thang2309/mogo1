@@ -206,7 +206,6 @@
                 @media #{$res440} {
                     box-shadow: 4px 4px #82e9d6;
                 }
-                &::after {}
             }
         }
     }
@@ -224,12 +223,6 @@
                 // margin: 0 30px;
                 max-width: 137px;
                 max-height: 149px;
-            }
-            img:first-child {
-                // margin: 0 30px 0 10px;
-            }
-            img:last-child {
-                // margin: 0 10px 0 30px;
             }
         }
     }
