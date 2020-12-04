@@ -7504,7 +7504,7 @@ body {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 100%;
-  min-height: 100vh;
+  max-height: 100%;
   overflow: hidden;
   margin: auto;
 }
@@ -7981,30 +7981,30 @@ table {
 }
 
 .about-us .about-us__img .about-us-01 {
-  background-image: url("/assets/img/about-us1.png");
+  background-image: url("../img/about-us1.png");
 }
 
 .about-us .about-us__img .about-us-01:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("/assets/img/about-us1.png");
-  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("/assets/img/about-us1.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("../img/about-us1.png");
+  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/about-us1.png");
 }
 
 .about-us .about-us__img .about-us-02 {
-  background-image: url("/assets/img/about-us2.png");
+  background-image: url("../img/about-us2.png");
 }
 
 .about-us .about-us__img .about-us-02:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("/assets/img/about-us2.png");
-  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("/assets/img/about-us2.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("../img/about-us2.png");
+  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/about-us2.png");
 }
 
 .about-us .about-us__img .about-us-03 {
-  background-image: url("/assets/img/about-us3.png");
+  background-image: url("../img/about-us3.png");
 }
 
 .about-us .about-us__img .about-us-03:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("/assets/img/about-us3.png");
-  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("/assets/img/about-us3.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("../img/about-us3.png");
+  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/about-us3.png");
 }
 
 .about-us .about-us__img .about-us-01:hover,
@@ -8033,6 +8033,18 @@ table {
   cursor: context-menu;
 }
 
+@media only screen and (max-width: 800px) {
+  .count {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .count {
+    height: 100px;
+  }
+}
+
 .count .count__content {
   max-width: 1200px;
   margin: auto;
@@ -8047,6 +8059,18 @@ table {
   max-width: 240px;
   width: 100%;
   padding: 80px 0 0 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .count .count--border {
+    padding: 60px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .count .count--border {
+    padding: 20px 0 0 0;
+  }
 }
 
 .count .count--border:not(:last-child) {
@@ -8068,6 +8092,7 @@ table {
 @media only screen and (max-width: 370px) {
   .count p {
     font-size: 20px;
+    padding-bottom: 5px;
   }
 }
 
@@ -8814,8 +8839,20 @@ table {
   margin: 0 10px 0 15px;
 }
 
+@media only screen and (max-width: 600px) {
+  .team .team__content .team__content__card:last-child {
+    margin: 0 5px 0 5px;
+  }
+}
+
 .team .team__content .team__content__card:first-child {
   margin: 0 15px 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .team .team__content .team__content__card:first-child {
+    margin: 0 5px 0 5px;
+  }
 }
 
 .team .team__content .team__content__card .team-01,
@@ -9059,30 +9096,30 @@ table {
 }
 
 .team .team__content .team-01 {
-  background-image: url("/assets/img/our-team1.png");
+  background-image: url("../img/our-team1.png");
 }
 
 .team .team__content .team-01:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("/assets/img/our-team1.png");
-  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("/assets/img/our-team1.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("../img/our-team1.png");
+  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/our-team1.png");
 }
 
 .team .team__content .team-02 {
-  background-image: url("/assets/img/our-team2.png");
+  background-image: url("../img/our-team2.png");
 }
 
 .team .team__content .team-02:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("/assets/img/our-team2.png");
-  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("/assets/img/our-team2.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("../img/our-team2.png");
+  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/our-team2.png");
 }
 
 .team .team__content .team-03 {
-  background-image: url("/assets/img/our-team3.png");
+  background-image: url("../img/our-team3.png");
 }
 
 .team .team__content .team-03:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("/assets/img/our-team3.png");
-  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("/assets/img/our-team3.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("../img/our-team3.png");
+  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/our-team3.png");
 }
 
 .team .team__content .team-01:hover,
@@ -9511,12 +9548,13 @@ table {
 @media only screen and (max-width: 800px) {
   .say .say__content .say__content__item {
     margin: 20px 10px;
+    display: block;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 370px) {
   .say .say__content .say__content__item {
-    display: block;
+    margin: 0;
   }
 }
 
@@ -9768,6 +9806,12 @@ table {
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .footer .title {
+    margin-bottom: 25px;
+  }
+}
+
 .footer .footer__light-italic {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -10009,13 +10053,6 @@ table {
   transition: 0.4s;
 }
 
-@media only screen and (max-width: 370px) {
-  .footer .footer__content .footer__content__contact .contact__sub button {
-    font-size: 8px;
-    padding: 0;
-  }
-}
-
 .footer .footer__content .footer__content__blog {
   max-width: 350px;
   max-height: 350px;
@@ -10047,11 +10084,23 @@ table {
   margin-right: 20px;
 }
 
+@media only screen and (max-width: 370px) {
+  .footer .footer__content .footer__content__blog img {
+    margin-right: 0;
+  }
+}
+
 .footer .footer__content .footer__content__blog ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer .footer__content .footer__content__blog ul li {
+    padding-bottom: 25px;
+  }
 }
 
 .footer .footer__content .footer__content__blog ul li a {
@@ -10145,8 +10194,8 @@ table {
 
 .banner {
   min-height: 700px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("assets/img/banner6.png");
-  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("assets/img/banner6.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 126, 125, 0.92)), to(rgba(236, 211, 133, 0.92))), url("../img/banner6.png");
+  background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/banner6.png");
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   background-repeat: no-repeat;

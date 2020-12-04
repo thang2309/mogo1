@@ -3,6 +3,9 @@
             .title {
                 font-weight: 500;
                 margin-bottom: 40px;
+                @media #{$res1200} {
+                    margin-bottom: 25px;
+                }
             }
             .footer__light-italic {
                 font-family: 'Roboto', sans-serif;
@@ -155,10 +158,6 @@
                                 background-color: #5ba195;
                                 transition: 0.4s;
                             }
-                            @media #{$res370} {
-                                font-size: 8px;
-                                padding: 0;
-                            }
                         }
                     }
                 }
@@ -180,10 +179,16 @@
                         width: 120px;
                         height: 80px;
                         margin-right: 20px;
+                        @media #{$res370} {
+                            margin-right: 0;
+                        }
                     }
                     ul li {
                         display: flex;
                         padding-bottom: 30px;
+                        @media #{$res1200} {
+                            padding-bottom: 25px;
+                        }
                         a {
                             font-weight: 500;
                             font-size: 12px;

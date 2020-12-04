@@ -20,9 +20,10 @@
             }
             @media #{$res800} {
                 margin: 20px 10px;
-            }
-            @media #{$res800} {
                 display: block;
+            }
+            @media #{$res370} {
+                margin: 0;
             }
             .item__img {
                 width: 50%;

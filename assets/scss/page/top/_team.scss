@@ -19,9 +19,15 @@
                 // }
                 &:last-child {
                     margin: 0 10px 0 15px;
+                    @media #{$res600} {
+                        margin: 0 5px 0 5px;
+                    }
                 }
                 &:first-child {
                     margin: 0 15px 0 10px;
+                    @media #{$res600} {
+                        margin: 0 5px 0 5px;
+                    }
                 }
                 .team-01,
                 .team-02,
@@ -178,21 +184,21 @@
                 }
             }
             .team-01 {
-                background-image: url("/assets/img/our-team1.png");
+                background-image: url("../img/our-team1.png");
                 &:hover {
-                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("/assets/img/our-team1.png");
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/our-team1.png");
                 }
             }
             .team-02 {
-                background-image: url("/assets/img/our-team2.png");
+                background-image: url("../img/our-team2.png");
                 &:hover {
-                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("/assets/img/our-team2.png");
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/our-team2.png");
                 }
             }
             .team-03 {
-                background-image: url("/assets/img/our-team3.png");
+                background-image: url("../img/our-team3.png");
                 &:hover {
-                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("/assets/img/our-team3.png");
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/our-team3.png");
                 }
             }
             .team-01:hover,
