@@ -9720,7 +9720,6 @@ table {
   position: relative;
   text-align: center;
   margin: 20px 0;
-  overflow: hidden;
 }
 
 .blog .blog__content .blog__content__item .item__img img {
