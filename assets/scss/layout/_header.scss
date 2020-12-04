@@ -64,7 +64,7 @@
             transition: 0.7s;
             z-index: 2;
         }
-        .header__menu-list {
+        ul {
             height: 20px;
             display: flex;
             @media #{$res800} {
@@ -72,23 +72,47 @@
                 display: block;
             }
         }
-        .header__menu-link {
+        li {
+            &:not(:last-child) {
+                position: relative;
+                transform: 0;
+            }
+            &:nth-last-child(2) {
+                margin: 0;
+            }
+            &:hover {
+                width: 11%;
+                transition: 0.4s all;
+                &::after {
+                    width: 100%;
+                    transition: 0.4s all;
+                }
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                border-bottom: 3px solid #FCE38A;
+                left: 0;
+                bottom: 0;
+                width: 0%;
+                height: 3px;
+                transition: 0.4s all;
+            }
+        }
+        a {
+            transition: 0.5s;
+            position: relative;
             &:hover {
                 color: #FCE38A;
-                border-bottom: 3px solid;
+                transition: 0.5s;
             }
         }
         .show-menu-btn:hover,
         .hide-menu-btn:hover {
             transition: 0.4s;
         }
-        .header__menu-item {
-            &:nth-last-child(2) {
-                margin: 0;
-            }
-        }
     }
-    .header__menu-item {
+    li {
         margin-right: 55px;
         font-size: 15px;
         list-style: none;
@@ -111,7 +135,6 @@
             &:nth-last-child(1) {
                 margin: 0;
             }
-            margin-right:15px;
         }
         @media #{$res370} {
             margin: 0;
@@ -120,8 +143,8 @@
     .header__menu-icon {
         height: 20px;
         display: flex;
-        @media #{$res370} {
-            margin: 0;
+        @media #{$res1200} {
+            margin-left: 10px;
         }
         @media #{$res800} {
             display: flex;
@@ -130,9 +153,11 @@
             margin: 0px 30px;
             height: auto;
         }
+        @media #{$res370} {
+            margin: 0;
+        }
         li {
             padding: 0;
-            margin: 0 40px 0 5px;
             @media #{$res370} {
                 margin: 0 10px;
             }

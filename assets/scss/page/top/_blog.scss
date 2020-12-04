@@ -23,6 +23,15 @@
                 position: relative;
                 text-align: center;
                 margin: 20px 0;
+                overflow: hidden;
+                img {
+                    transition: 0.4s;
+                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.05);
+                        transition: 0.4s;
+                    }
+                }
                 @media #{$res800} {
                     margin: 10px 0;
                 }
@@ -97,6 +106,12 @@
                     font-family: 'Montserrat', sans-serif;
                     font-size: 14px;
                     font-weight: 500;
+                    cursor: pointer;
+                    transition: 0.4s;
+                    &:hover {
+                        color: #FCE38A;
+                        transition: 0.4s;
+                    }
                     @media #{$res800} {
                         font-size: 13px;
                     }
