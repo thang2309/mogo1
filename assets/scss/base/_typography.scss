@@ -1,0 +1,69 @@
+@import "font-awesome";
+html,
+body {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    @media #{$res1000} {
+        .banner .banner__content .banner__content__top {
+            p {
+                font-size: 40px;
+            }
+            h2 {
+                font-size: 100px;
+            }
+        }
+    }
+    @media #{$res800} {
+        .banner .banner__content .banner__content__top {
+            p {
+                font-size: 40px;
+            }
+            h2 {
+                font-size: 70px;
+                max-width: 380px;
+            }
+        }
+    }
+    @media #{$res600} {
+        .banner .banner__content .banner__content__top {
+            h2 {
+                font-size: 50px;
+                max-width: 280px;
+            }
+        }
+    }
+    @media #{$res370} {
+        .banner .banner__content .banner__content__top {
+            p {
+                font-size: 30px;
+            }
+            h2 {
+                font-size: 40px;
+                width: 380px;
+            }
+        }
+        .header .header__menu-icon {
+            margin: 0;
+        }
+        .header .header__menu-icon .header__menu-item {
+            margin: 0 10px 0 0;
+        }
+    }
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    margin: auto;
+}

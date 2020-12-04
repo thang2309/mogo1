@@ -1,0 +1,234 @@
+    .team {
+        font-family: 'Montserrat', sans-serif;
+        max-width: 1200px;
+        margin: 85px auto 100px auto;
+        text-align: center;
+        @media #{$res800} {
+            margin: 35px auto;
+        }
+        .team__content {
+            @include flex(center, center);
+            .team__content__card {
+                // margin: 0 15px;
+                // width: 100%;
+                // height: 550px;
+                // background-size: contain;
+                // @media #{$res1200} {
+                //     max-width: 100%;
+                //     max-height: 80%
+                // }
+                &:last-child {
+                    margin: 0 10px 0 15px;
+                    @media #{$res600} {
+                        margin: 0 5px 0 5px;
+                    }
+                }
+                &:first-child {
+                    margin: 0 15px 0 10px;
+                    @media #{$res600} {
+                        margin: 0 5px 0 5px;
+                    }
+                }
+                .team-01,
+                .team-02,
+                .team-03 {
+                    width: 380px;
+                    height: 470px;
+                    transition: 0.4s;
+                    position: relative;
+                    background-size: cover;
+                    margin-bottom: 30px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: bottom;
+                    object-fit: cover;
+                    @media #{$res1200} {
+                        height: 370px;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        width: 300px;
+                        // margin: 0 30px 30px 30px;
+                    }
+                    @media #{$res1000} {
+                        height: 320px;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        width: 255px;
+                    }
+                    @media #{$res800} {
+                        height: 220px;
+                        width: 179px;
+                        margin-bottom: 20px;
+                    }
+                    @media #{$res600} {
+                        height: 150px;
+                        width: 120px;
+                        margin-bottom: 10px;
+                    }
+                    @media #{$res370} {
+                        height: 100px;
+                        width: 80px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+            .team__content__img {
+                position: absolute;
+                left: 21%;
+                top: 50%;
+                display: none;
+                margin: -30px 0 0 0;
+                @media #{$res1200} {
+                    left: 11.5%;
+                    top: 51%;
+                }
+                @media #{$res1000} {
+                    top: 53%;
+                    left: 16.5%;
+                }
+                @media #{$res800} {
+                    top: 58%;
+                    left: 18.2%;
+                }
+                @media #{$res600} {
+                    top: 64%;
+                    left: 19%;
+                }
+                @media #{$res370} {
+                    top: 69%;
+                    left: 15%;
+                }
+                a {
+                    color: #F38181;
+                    margin: 0 -1.7px;
+                    @media #{$res1200} {
+                        margin: 0 -0.5%;
+                    }
+                    @media #{$res1000} {
+                        margin: 0;
+                    }
+                    i {
+                        background: #FCE38A;
+                        font-size: 24px;
+                        width: 55px;
+                        height: 55px;
+                        padding: 15px;
+                        transition: 0.4s;
+                        &:hover {
+                            background: #F38181;
+                            color: #fff;
+                            transition: 0.4s;
+                        }
+                        @media #{$res1000} {
+                            background: #FCE38A;
+                            font-size: 16px;
+                            width: 40px;
+                            height: 40px;
+                            padding: 12px;
+                            -webkit-transition: 0.4s;
+                            transition: 0.4s;
+                        }
+                        @media #{$res800} {
+                            font-size: 10px;
+                            width: 25px;
+                            height: 25px;
+                            padding: 8px;
+                        }
+                        @media #{$res600} {
+                            font-size: 8px;
+                            width: 15px;
+                            height: 15px;
+                            padding: 3px;
+                        }
+                        @media #{$res370} {
+                            font-size: 6px;
+                            width: 12px;
+                            height: 12px;
+                            padding: 3px;
+                        }
+                    }
+                }
+            }
+            .team__content__text {
+                font-family: 'Montserrat', sans-serif;
+                p {
+                    font-weight: 500;
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                    @media #{$res800} {
+                        font-size: 12px;
+                    }
+                    @media #{$res600} {
+                        font-size: 8px;
+                    }
+                    @media #{$res370} {
+                        font-size: 5px;
+                        margin-bottom: -5px;
+                    }
+                }
+                span {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 15px;
+                    font-style: italic;
+                    font-weight: 500;
+                    color: #9c9a9a;
+                    @media #{$res800} {
+                        font-size: 12px;
+                    }
+                    @media #{$res600} {
+                        font-size: 8px;
+                    }
+                    @media #{$res370} {
+                        font-size: 4px;
+                    }
+                }
+            }
+            .team-01 {
+                background-image: url("../img/our-team1.png");
+                &:hover {
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/our-team1.png");
+                }
+            }
+            .team-02 {
+                background-image: url("../img/our-team2.png");
+                &:hover {
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/our-team2.png");
+                }
+            }
+            .team-03 {
+                background-image: url("../img/our-team3.png");
+                &:hover {
+                    background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url("../img/our-team3.png");
+                }
+            }
+            .team-01:hover,
+            .team-02:hover,
+            .team-03:hover {
+                transition: 0.4s;
+                box-shadow: 10px 10px #82e9d6;
+                .team__content__img {
+                    display: block;
+                }
+                @media #{$res370} {
+                    box-shadow: 4px 4px #82e9d6;
+                }
+            }
+        }
+    }
+    
+    .icon-design {
+        background-color: #f5f5f5;
+        .icon-design__content {
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+            justify-content: space-between;
+            display: flex;
+            @media #{$res1200} {}
+            .icon-design__img {
+                // margin: 0 30px;
+                max-width: 137px;
+                max-height: 149px;
+            }
+        }
+    }
