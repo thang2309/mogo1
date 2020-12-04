@@ -1,0 +1,37 @@
+.design {
+    width: 100%;
+    background-image: url("/assets/img/background-enqui.png");
+    padding: 40px 0 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media #{$res800} {
+        margin: 35px 0;
+    }
+    .title-section {
+        padding: 40px 0 45px 0;
+    }
+    .design__content {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .design__img {
+        position: relative;
+        text-align: center;
+        img:last-child {
+            position: absolute;
+            top: 33%;
+            left: 60%;
+            @media #{$res800} {
+                max-width: 45%;
+                margin: 50px auto 0 auto;
+            }
+        }
+        @media #{$res800} {
+            max-width: 80%;
+            margin: auto;
+        }
+        .design__img-bottom {
+            vertical-align: bottom;
+        }
+    }
+}

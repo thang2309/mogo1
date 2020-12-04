@@ -1,0 +1,86 @@
+.about-us {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    margin: 85px auto 100px auto;
+    text-align: center;
+    @media #{$res800} {
+        margin: 35px auto;
+    }
+    @media #{$res600} {
+        margin: 30px auto 30px auto;
+    }
+    .about-us__img {
+        @include flex(center, center);
+        @media #{$res600} {
+            display: block;
+            justify-content: center;
+        }
+        .about-us-01,
+        .about-us-02,
+        .about-us-03 {
+            position: relative;
+            width: 100%;
+            width: 380px;
+            height: 250px;
+            transition: 0.4s;
+            background-size: cover;
+            margin: 15px;
+            @media #{$res1200} {
+                width: 370px;
+                height: 250px;
+            }
+            @media #{$res1000} {
+                width: 260px;
+                height: 160px;
+            }
+            @media #{$res800} {
+                width: 200px;
+                height: 100px;
+            }
+            @media #{$res600} {
+                width: 200px;
+                margin: 10px auto;
+                height: 150px;
+            }
+            .about-us__content {
+                height: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                color: white;
+                display: none;
+                font-size: 18px;
+                font-weight: bold;
+                margin: -25px 0 0 -60px;
+                line-height: 1.5;
+            }
+        }
+        .about-us-01 {
+            background-image: url("../img/about-us1.png");
+            &:hover {
+                background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url('../img/about-us1.png');
+            }
+        }
+        .about-us-02 {
+            background-image: url("../img/about-us2.png");
+            &:hover {
+                background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url('../img/about-us2.png');
+            }
+        }
+        .about-us-03 {
+            background-image: url("../img/about-us3.png");
+            &:hover {
+                background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url('../img/about-us3.png');
+            }
+        }
+        .about-us-01:hover,
+        .about-us-02:hover,
+        .about-us-03:hover {
+            transition: 0.4s;
+            box-shadow: 10px 10px #82e9d6;
+            .about-us__content {
+                display: block;
+            }
+        }
+    }
+}
