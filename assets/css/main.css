@@ -7714,6 +7714,7 @@ table {
 
 .header #chk:checked ~ .header__menu li {
   margin: 0;
+  width: 100%;
 }
 
 .header .header__inner {
