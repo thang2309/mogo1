@@ -7697,8 +7697,8 @@ table {
 @media only screen and (max-width: 800px) {
   .header .hide-menu-btn {
     position: absolute;
-    top: 8%;
-    right: 7%;
+    top: 6%;
+    right: 8%;
   }
 }
 
@@ -7710,6 +7710,10 @@ table {
 
 .header #chk:checked ~ .header__menu {
   right: 0;
+}
+
+.header #chk:checked ~ .header__menu li {
+  margin: 0;
 }
 
 .header .header__inner {
@@ -7724,16 +7728,6 @@ table {
           justify-content: space-between;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-}
-
-.header .header__menu--flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.header .header__menu--flex li {
-  list-style: none;
 }
 
 .header .header__menu {
@@ -7844,7 +7838,7 @@ table {
 
 @media only screen and (max-width: 1200px) {
   .header li {
-    margin: 0 30px 0 0;
+    margin-right: 30px;
   }
   .header li:nth-last-child(1) {
     margin: 0;
