@@ -215,6 +215,9 @@
                         @media #{$res1000} {
                             width: 100%;
                         }
+                        @media #{$res370} {
+                            padding: 0 10px;
+                        }
                     }
                 }
                 .footer__content__ins {

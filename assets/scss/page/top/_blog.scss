@@ -19,18 +19,49 @@
                 padding: 0;
                 max-width: 90%;
             }
+            // glare
             .item__img {
                 position: relative;
                 text-align: center;
                 margin: 20px 0;
-                img {
-                    transition: 0.4s;
-                    cursor: pointer;
-                    &:hover {
-                        transform: scale(1.05);
-                        transition: 0.4s;
+                transition: .3s ease-in;
+                overflow: hidden;
+                &:hover {
+                    &::after,
+                    &::before {
+                        top: 100%;
+                        left: 100%;
                     }
                 }
+                &::before,
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: -160%;
+                    left: 0;
+                    box-shadow: 5px 5px 10px 0 rgba(#fff, .3);
+                    background: rgba(#fff, .3);
+                    height: 200%;
+                    transform: rotate(45deg) translate(-50%, 0);
+                    transition-timing-function: ease-in;
+                    z-index: 99;
+                }
+                &::before {
+                    width: 50px;
+                    transition-duration: .6s;
+                }
+                &::after {
+                    width: 15px;
+                    transition-delay: .2s;
+                    transition-duration: .3s;
+                }
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    display: block;
+                    height: 100%;
+                }
+                // glare
                 @media #{$res800} {
                     margin: 10px 0;
                 }
@@ -38,8 +69,8 @@
                     position: absolute;
                     z-index: 2;
                     bottom: 4%;
-                    left: -3%;
-                    background-color: $green;
+                    left: 3%;
+                    background: rgba($color: $green, $alpha: .9);
                     width: 60px;
                     height: 70px;
                     color: #fff;
