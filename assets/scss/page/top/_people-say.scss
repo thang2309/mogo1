@@ -32,10 +32,12 @@
                 }
                 @media #{$res800} {
                     width: 50%;
+                    text-align: center;
                     margin: auto;
                 }
                 @media #{$res600} {
                     width: 60%;
+                    text-align: center;
                 }
             }
             .text-margin {
