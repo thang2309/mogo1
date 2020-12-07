@@ -7781,8 +7781,6 @@ table {
 
 .header .header__menu li:hover {
   width: 11%;
-  -webkit-transition: 0.4s all;
-  transition: 0.4s all;
 }
 
 .header .header__menu li:hover::after {
@@ -7799,8 +7797,12 @@ table {
   bottom: 0;
   width: 0%;
   height: 3px;
-  -webkit-transition: 0.4s all;
-  transition: 0.4s all;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }
 
 .header .header__menu a {

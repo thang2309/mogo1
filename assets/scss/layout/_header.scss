@@ -82,10 +82,11 @@
             }
             &:hover {
                 width: 11%;
-                transition: 0.4s all;
+
                 &::after {
                     width: 100%;
                     transition: 0.4s all;
+
                 }
             }
             &::after {
@@ -96,7 +97,9 @@
                 bottom: 0;
                 width: 0%;
                 height: 3px;
-                transition: 0.4s all;
+                transition: 0.4s;
+                transition-delay: .2s;
+                transition-timing-function: ease-in-out;
             }
         }
         a {
