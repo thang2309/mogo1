@@ -9633,6 +9633,8 @@ table {
   -webkit-transition-timing-function: ease-in;
           transition-timing-function: ease-in;
   z-index: 99;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
 }
 
 .blog .blog__content .blog__content__item .item__img::before {
@@ -9642,7 +9644,7 @@ table {
 }
 
 .blog .blog__content .blog__content__item .item__img::after {
-  width: 15px;
+  width: 30px;
   -webkit-transition-delay: .2s;
           transition-delay: .2s;
   -webkit-transition-duration: .3s;
@@ -9901,7 +9903,7 @@ table {
   }
 }
 
-.footer .footer__content .footer__content__contact h1 {
+.footer .footer__content .footer__content__contact h2 {
   font-size: 46px;
   font-weight: bold;
   color: #CCCCCC;

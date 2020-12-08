@@ -22,6 +22,8 @@ function myFunction1() {
         y1.style.transform = "rotate(0deg)";
         x1.style.display = "none";
         z1.style.borderBottom = "none";
+       
+
     } else {
         x1.style.display = "block";
         y1.style.transform = "rotate(180deg)";
@@ -30,6 +32,8 @@ function myFunction1() {
         x3.style.display = "none";
         y2.style.transform = "rotate(0deg)";
         y3.style.transform = "rotate(0deg)";
+        z2.style.borderBottom = "none";
+        z3.style.borderBottom = "none";
     }
 }
 
@@ -47,6 +51,8 @@ function myFunction2() {
         y1.style.transform = "rotate(0deg)";
         x3.style.display = "none";
         y3.style.transform = "rotate(0deg)";
+        z1.style.borderBottom = "none";
+        z3.style.borderBottom = "none";
     }
 }
 
@@ -64,6 +70,8 @@ function myFunction3() {
         y1.style.transform = "rotate(0deg)";
         x2.style.display = "none";
         y2.style.transform = "rotate(0deg)";
+        z2.style.borderBottom = "none";
+        z1.style.borderBottom = "none";
     }
 }
 $(document).ready(function() {
@@ -88,3 +96,8 @@ $(document).ready(function() {
 //         gutter: -1,
 //     })
 // });
+
+
+AOS.init({
+  easing: 'ease-in-out-sine'
+});
