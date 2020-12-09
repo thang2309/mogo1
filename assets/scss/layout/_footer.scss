@@ -18,7 +18,7 @@
             .footer__map {
                 justify-content: center;
                 text-align: center;
-                background-image: url("/assets/img/map.png");
+                background-image: url("../img/map.png");
                 height: 200px;
                 width: 100%;
                 display: block;
@@ -104,17 +104,23 @@
                         }
                         >div {
                             margin-left: 20px;
+                            @media #{$res600} {
+                                margin-left: 15px;
+                            }
                         }
                         a {
                             color: #82e9d6;
                             transition: 0.4s;
                             margin: 0 7px;
-                             :hover {
+                            &:hover {
                                 color: yellowgreen;
                                 transition: 0.4s;
                             }
+                            @media #{$res600} {
+                                margin: 0 5px;
+                            }
                             @media #{$res370} {
-                                margin: 0 1px;
+                                margin: 0 2px;
                             }
                         }
                     }
