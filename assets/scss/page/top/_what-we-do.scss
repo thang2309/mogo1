@@ -1,6 +1,6 @@
 .what-we-do {
     max-width: 1200px;
-    margin: 50px auto 100px auto;
+    margin: 110px auto 100px auto;
     @media #{$res800} {
         margin: 35px auto;
     }
@@ -44,7 +44,7 @@
                 &:first-child {
                     margin-top: 0;
                 }
-                margin: 10px 0 10px 50px;
+                margin: 10px 0 0 50px;
                 border: 1px solid #cccccc;
                 // &:first-child .text__content {
                 //     display: block;
@@ -91,16 +91,16 @@
                     }
                 }
                 .text__content {
-                    height: 150px;
-                    overflow: auto;
-                    line-height: 1.5;
-                    font-size: 15px;
-                    font-family: 'Roboto', sans-serif;
-                    font-weight: 300;
-                    font-style: italic;
-                    color: #9c9a9a;
-                    padding: 15px 0 30px 15px;
-                    margin: 10px 15px;
+                  height: 150px;
+                  overflow: auto;
+                  line-height: 1.4;
+                  font-size: 15px;
+                  font-family: 'Roboto', sans-serif;
+                  font-weight: 300;
+                  font-style: italic;
+                  color: #9c9a9a;
+                  padding: 10px 10px 0px 20px;
+                  margin: 5px 15px 13px 4px;                 
                     display: none;
                     &::-webkit-scrollbar {
                         width: 10px;

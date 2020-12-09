@@ -52,21 +52,30 @@
                     .work__text {
                         position: absolute;
                         left: 0;
-                        top: 44%;
+                        top: 37%;
                         z-index: 1;
                         color: #fff;
                         display: none;
                         cursor: default;
                         width: 100%;
-                        i {
-                            font-size: 20px;
+                        @media #{$res600} {
+                            top: 34%;
+                        }
+                        img {
+                            @media #{$res600} {
+                                width: 25px;
+                            }
                         }
                         p {
                             font-family: 'Montserrat', sans-serif;
                             font-weight: 500;
                             font-size: 14px;
+                            margin: 20px 0 15px 0;
                             @media #{$res1200} {
                                 font-size: 12px;
+                            }
+                            @media #{$res600} {
+                                margin: 10px 0 3px 0;
                             }
                         }
                         span {
