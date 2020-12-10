@@ -3,7 +3,7 @@
     background-image: url("../img/background-say.png");
     padding: 70px 0 15px 0;
     background-size: cover;
-    object-fit: cover;
+    background-position: center;
     background-repeat: no-repeat;
     @media #{$res800} {
         padding: 35px 0;

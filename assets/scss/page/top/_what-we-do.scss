@@ -91,35 +91,39 @@
                     }
                 }
                 .text__content {
-                  height: 150px;
-                  overflow: auto;
-                  line-height: 1.4;
-                  font-size: 15px;
-                  font-family: 'Roboto', sans-serif;
-                  font-weight: 300;
-                  font-style: italic;
-                  color: #9c9a9a;
-                  padding: 10px 10px 0px 20px;
-                  margin: 5px 15px 13px 4px;                 
+                    height: 150px;
+                    overflow: auto;
+                    line-height: 1.4;
+                    font-size: 15px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    font-style: italic;
+                    color: #9c9a9a;
+                    padding: 10px 10px 0px 20px;
+                    margin: 5px 15px 13px 4px;
                     display: none;
                     &::-webkit-scrollbar {
-                        width: 10px;
-                        height: 80px;
+                        width: 7px;
                         right: 50%;
+                        margin-top: 10px;
                     }
                     &::-webkit-scrollbar-track {
-                        box-shadow: inset 0 0 5px rgb(156, 147, 147);
+                        box-shadow: inset 0 0 5px rgb(192, 179, 179);
                         border-radius: 10px;
                     }
                     &::-webkit-scrollbar-thumb {
                         background: $green;
                         border-radius: 10px;
+                        // background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cat.gif"), linear-gradient( 90deg, transparent, magenta, red, yellow, limegreen, turquoise, blue, magenta, transparent);
                     }
                     &::-webkit-scrollbar-thumb:hover {
                         background: $primary-green;
                     }
-                    &::-webkit-resizer {
-                        height: 80px;
+                    // &::-webkit-resizer {
+                    //     height: 80px;
+                    // }
+                    &::-webkit-scrollbar-button {
+                        height: 7px; //for vertical scrollbar
                     }
                 }
             }

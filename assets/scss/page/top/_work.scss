@@ -58,7 +58,7 @@
                         display: none;
                         cursor: default;
                         width: 100%;
-                        @media #{$res600} {
+                        @media #{$res800} {
                             top: 34%;
                         }
                         img {
@@ -74,7 +74,7 @@
                             @media #{$res1200} {
                                 font-size: 12px;
                             }
-                            @media #{$res600} {
+                            @media #{$res1000} {
                                 margin: 10px 0 3px 0;
                             }
                         }
@@ -133,6 +133,10 @@
                 .content-img {
                     max-width: 80%;
                     width: 65%;
+                    img {
+                        max-height: 180px;
+                        margin: auto;
+                    }
                 }
                 .content-text {
                     padding-top: 30px;
@@ -147,8 +151,11 @@
                         margin-left: 10px;
                     }
                     p {
-                        font-family: myriad-pro, sans-serif;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 300;
+                        font-style: italic;
                         font-size: 22px;
+                        line-height: 1.5;
                         margin: 5px 0 20px 0;
                         color: #9c9a9a;
                         @media #{$res800} {

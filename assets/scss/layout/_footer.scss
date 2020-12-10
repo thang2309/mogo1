@@ -23,10 +23,12 @@
                 width: 100%;
                 display: block;
                 background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
                 color: #ee7676;
                 .footer__map--icon {
                     font-size: 20px;
-                    padding: 60px 0 0 0;
+                    padding-top: 60px;
                 }
                 .footer__map--text {
                     font-weight: bold;
