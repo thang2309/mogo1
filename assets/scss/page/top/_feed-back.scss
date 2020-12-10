@@ -1,108 +1,117 @@
 .feed-back {
     background-color: #f8f8f8f8;
-    .feed-back__content {
+    .feed-back-width {
         max-width: 1200px;
         margin: auto;
-        display: flex !important;
-        padding: 50px;
-        @media #{$res1200} {
-            padding: 30px;
-            max-width: 1200px;
-        }
-        @media #{$res600} {
-            padding: 20px;
-            max-width: 1200px;
-            display: block !important;
-        }
-        img{
-          border: 3px solid $green;
-          padding: 35px;
-          max-height: 150px;
-          @media #{$res800} {
-            padding: 5px;
-            width: 50px;
-            height: 50px;
-          }
-
-        }
-        // .content-icon {
-        //     width: 150px;
-        //     height: 150px;
-        //     font-size: 50px;
-        //     @media #{$res1200} {
-        //         max-width: 150px;
-        //         max-height: 150px;
-        //         font-size: 40px;
-        //     }
-        //     @media #{$res800} {
-        //         max-width: 70px;
-        //         max-height: 70px;
-        //         font-size: 25px;
-        //     }
-            
-        //     // i {
-        //     //     border: 3px solid;
-        //     //     padding: 50px;
-        //     //     color: $green;
-        //     //     @media #{$res1200} {
-        //     //         padding: 30px;
-        //     //     }
-        //     //     @media #{$res800} {
-        //     //         padding: 10px;
-        //     //     }
-        //     // }
-        // }
-        .content-text {
-            margin-left: 50px;
-            @media #{$res1200} {}
-            @media #{$res800} {
-                margin-left: 10px;
+        padding: 70px 0;
+        .feed-back__content {
+            display: flex !important;
+            margin: 0 6%;
+            @media #{$res1200} {
+                padding: 30px;
+                max-width: 1200px;
             }
             @media #{$res600} {
-                margin-left: 0;
+                padding: 20px;
+                max-width: 1200px;
+                display: block !important;
             }
-            p {
-                font-family: myriad-pro, sans-serif;
-                font-size: 24px;
-                margin: 5px 0 20px 0;
-                color: #9c9a9a;
+            img {
+                border: 3px solid $green;
+                padding: 35px;
+                max-height: 150px;
                 @media #{$res800} {
-                    font-size: 15px;
+                    padding: 5px;
+                    width: 50px;
+                    height: 50px;
                 }
             }
-            span {
-                font-family: 'Kaushan Script', cursive;
-                font-size: 24px;
-                position: relative;
-                margin-left: 70px;
-                &::after {
-                    content: "";
-                    position: absolute;
-                    width: 60px;
-                    height: 5px;
-                    border-bottom: 3.5px solid #f38181;
-                    left: -85%;
-                    top: 50%;
-                    @media #{$res600} {
-                        border-bottom: 2px solid #f38181;
-                        width: 30px;
-                    }
+            // .content-icon {
+            //     width: 150px;
+            //     height: 150px;
+            //     font-size: 50px;
+            //     @media #{$res1200} {
+            //         max-width: 150px;
+            //         max-height: 150px;
+            //         font-size: 40px;
+            //     }
+            //     @media #{$res800} {
+            //         max-width: 70px;
+            //         max-height: 70px;
+            //         font-size: 25px;
+            //     }
+            //     // i {
+            //     //     border: 3px solid;
+            //     //     padding: 50px;
+            //     //     color: $green;
+            //     //     @media #{$res1200} {
+            //     //         padding: 30px;
+            //     //     }
+            //     //     @media #{$res800} {
+            //     //         padding: 10px;
+            //     //     }
+            //     // }
+            // }
+            .content-text {
+                margin-left: 50px;
+                @media #{$res1200} {}
+                @media #{$res800} {
+                    margin-left: 10px;
                 }
                 @media #{$res600} {
-                    font-size: 15px;
-                    margin-left: 45px;
+                    margin-left: 0;
+                }
+                p {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    font-style: italic;
+                    font-size: 24px;
+                    margin: 5px 0 7px 0;
+                    line-height: 1.4;
+                    color: #9c9a9a;
+                    margin-right: 10%;
+                    @media #{$res800} {
+                        font-size: 15px;
+                    }
+                }
+                span {
+                    font-family: 'Kaushan Script', cursive;
+                    font-size: 24px;
+                    position: relative;
+                    margin-left: 70px;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 60px;
+                        height: 5px;
+                        border-bottom: 3.5px solid #f38181;
+                        left: -85%;
+                        top: 50%;
+                        @media #{$res600} {
+                            border-bottom: 2px solid #f38181;
+                            width: 30px;
+                        }
+                    }
+                    @media #{$res600} {
+                        font-size: 15px;
+                        margin-left: 45px;
+                    }
                 }
             }
         }
     }
-    .slick-next {
+    .slick-next,
+    .slick-prev {
         i {
             font-size: 30px;
         }
     }
     .slider {
-        width: 80%;
-        margin: 100px auto;
+        width: 90%;
+        margin: auto;
+        @media #{$res800} {
+            width: 80%;
+        }
     }
     .slick-slide {
         margin: 0px 20px;

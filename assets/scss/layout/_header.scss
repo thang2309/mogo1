@@ -41,15 +41,14 @@
     }
     #chk:checked~.header__menu {
         right: 0;
-        li{
-          margin: 0;
-          width: 100%;
+        li {
+            margin: 0;
+            width: 100%;
         }
     }
     .header__inner {
         @include flex(center, space-between);
     }
-    
     .header__menu {
         margin-left: 35%;
         @media #{$res800} {
@@ -81,11 +80,9 @@
             }
             &:hover {
                 width: 11%;
-
                 &::after {
                     width: 100%;
                     transition: 0.4s all;
-
                 }
             }
             &::after {
@@ -93,7 +90,7 @@
                 position: absolute;
                 border-bottom: 3px solid #FCE38A;
                 left: 0;
-                bottom: 0;
+                bottom: -3%;
                 width: 0%;
                 height: 3px;
                 transition: 0.4s;

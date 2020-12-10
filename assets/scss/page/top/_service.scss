@@ -20,19 +20,20 @@
         @media #{$res1200} {
             max-width: 100%;
         }
-        img , i{
-          font-size: 30px;
-          width: 30px;
-          margin: 3px 30px 0 0;
-          height: 30px;
+        img,
+        i {
+            font-size: 30px;
+            width: 30px;
+            margin: 3px 30px 0 0;
+            height: 30px;
         }
         @include flex(center, center, wrap);
         .service__content__item {
             max-width: 350px;
             display: flex;
-            margin: 40px 20px 40px 20px;
+            margin: 50px 20px;
             @media #{$res1200} {
-                margin: 20px 10px 20px 10px;
+                margin: 20px 10px;
             }
             @media #{$res800} {
                 margin: 10px;

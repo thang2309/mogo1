@@ -13,7 +13,7 @@
             align-items: center;
             justify-content: center;
             display: grid;
-            margin-top: 80px;
+            margin: 130px 0 150px 0;
             text-align: center;
             cursor: context-menu;
             p {
@@ -21,7 +21,7 @@
                 font-size: 65px;
             }
             h2 {
-                padding-bottom: 36px;
+                padding: 60px 0 45px 0;
                 font-size: 120px;
                 font-weight: bold;
                 position: relative;
@@ -50,7 +50,7 @@
                 font-size: 12px;
                 text-transform: uppercase;
                 width: 120px;
-                margin: 30px auto;
+                margin: 50px auto;
                 height: 35px;
                 outline: none;
                 transition: 0.4s all;
