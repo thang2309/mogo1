@@ -1,11 +1,12 @@
 .what-we-do {
     max-width: 1200px;
     margin: 110px auto 100px auto;
-    @media #{$res800} {
-        margin: 35px auto;
+    @media #{$res600} {
+        margin: 50px auto;
     }
     .what-we-do__content {
         min-height: 400px;
+        display: flex;
         @media #{$res1200} {
             max-width: 1200px;
         }
@@ -13,7 +14,7 @@
             display: block;
             margin: auto;
         }
-        display: flex;
+        
         .what-we-do__content__img {
             width: 570px;
             height: 380px;
@@ -36,7 +37,22 @@
             @media #{$res800} {
                 margin: auto;
             }
+
+            .active{
+              .text__content{
+                display: block !important;
+              }
+              .icon-transform-01{
+                transform: rotate(180deg);
+              }
+              .text__title{
+                border-bottom: 1px solid #cccccc;
+              }
+            }
+
             .text {
+                margin: 10px 0 0 50px;
+                border: 1px solid #cccccc;
                 @media #{$res1200} {
                     max-width: 100%;
                     margin: 10px 30px;
@@ -44,8 +60,7 @@
                 &:first-child {
                     margin-top: 0;
                 }
-                margin: 10px 0 0 50px;
-                border: 1px solid #cccccc;
+                
                 // &:first-child .text__content {
                 //     display: block;
                 // }
@@ -90,6 +105,7 @@
                         }
                     }
                 }
+               
                 .text__content {
                     height: 150px;
                     overflow: auto;
@@ -102,6 +118,7 @@
                     padding: 10px 10px 0px 20px;
                     margin: 5px 15px 13px 4px;
                     display: none;
+                   
                     &::-webkit-scrollbar {
                         width: 7px;
                         right: 50%;
