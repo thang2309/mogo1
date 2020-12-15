@@ -4,7 +4,10 @@ body {
     font-size: 16px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
-  
+    .modal-open{
+      padding-right: 0 !important;
+      overflow: unset;
+    }
     @media #{$res800} {
      
         .banner .banner__content .banner__content__top {
