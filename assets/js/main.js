@@ -3,6 +3,9 @@ $(document).ready(function() {
         dots: true,
     });
 });
+
+
+
 var x1 = document.getElementById("text-01");
 var y1 = document.getElementById("icon-tranform-01");
 var z1 = document.getElementById("text__title-01");
@@ -101,3 +104,67 @@ $(document).ready(function() {
 AOS.init({
   easing: 'ease-in-out-sine'
 });
+
+
+// var wwd = document.getElementById("what-we-do__content__text1");
+// var btns = wwd.getElementsByClassName("text");
+// var deleteActive = wwd.getElementsByClassName("text active");
+// console.log(deleteActive);
+
+
+// // Cách 1
+
+// // for(var i = 0 ; i < btns.length ; i++){
+// //   btns[i].addEventListener("click" , function(){
+// //     var current = document.getElementsByClassName("active");
+// //     current[0].className = current[0].className.replace(" active" , "");
+// //     console.log(this.className);
+
+// //     this.className += " active";
+
+// //     console.log(this.className);
+// //   });
+// // }
+
+
+// // Cách 2
+// var selected = document.getElementsByClassName("active");
+
+// function myFunction(){
+//   if(selected.length == 0){
+//     item.className += " active"; 
+//   }
+
+//   // if(selected.className == "active"){
+//   //   selected.className = "text";
+//   //  }
+// }
+// Array.from(btns).forEach(item => {
+//   item.addEventListener("click", () => {
+
+//       if(selected.length != 0 && selected.length == 1){
+//         console.log(selected.length);
+//         selected[0].className = selected[0].className.replace(" active", "");
+//         item.className += " active"; 
+//       }
+      
+//       // console.log((item.className === "text active").length );
+//   });
+// });
+
+
+
+// function myFunction(){
+//   if(deleteActive.className === "text active")
+//   {
+//     console.log(deleteActive + " a");
+//     deleteActive = "text";
+//     console.log(deleteActive + " b");
+//   }
+//   else
+//   {
+//    console.log(deleteActive.className + " c");
+//     deleteActive.className = "text";
+//     console.log(deleteActive + " d");
+//   }
+//  }
