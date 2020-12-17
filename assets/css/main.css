@@ -7917,7 +7917,7 @@ table {
 .about-us {
   font-family: 'Montserrat', sans-serif;
   max-width: 1200px;
-  margin: 85px auto 90px auto;
+  margin: 75px auto 90px auto;
   text-align: center;
 }
 
@@ -8318,11 +8318,14 @@ table {
   max-width: 1200px;
   text-align: center;
   margin: auto;
+  height: auto;
 }
 
 .title-section span {
   font-family: 'Kaushan Script', cursive;
   font-size: 24px;
+  display: block;
+  font-weight: 400;
 }
 
 .title-section h2 {
@@ -8330,7 +8333,7 @@ table {
   font-weight: bold;
   font-size: 30px;
   position: relative;
-  line-height: 2.3;
+  line-height: 1.7;
 }
 
 @media only screen and (max-width: 600px) {
@@ -8343,7 +8346,7 @@ table {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -40%;
+  bottom: -30%;
   width: 60px;
   height: 3.5px;
   background-color: #e46e6e;
@@ -8699,7 +8702,7 @@ table {
   font-weight: 300;
   font-style: italic;
   color: #9c9a9a;
-  padding: 10px 10px 0px 20px;
+  padding: 10px 10px 0px 15px;
   margin: 5px 15px 13px 4px;
   display: none;
 }
