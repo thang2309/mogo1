@@ -1,9 +1,12 @@
 .header {
-    padding: 20px 170px;
+    padding: 25px 200px 25px 280px;
     position: fixed;
     margin: auto;
     width: 100%;
     z-index: 10;
+    @media #{$res1200} {
+        padding: 25px 170px;
+    }
     @media #{$res800} {
         padding: 50px;
     }
@@ -60,6 +63,7 @@
         width: 100%;
         justify-items: flex-end;
         justify-content: flex-end;
+        align-items: center;
         @media #{$res1000} {
           margin-left: 30px;
         }
@@ -103,7 +107,7 @@
                 position: absolute;
                 border-bottom: 3px solid #FCE38A;
                 left: 0;
-                bottom: -3%;
+                bottom: -30%;
                 width: 0%;
                 height: 3px;
                 transition: 0.4s;
@@ -156,6 +160,7 @@
     .header__menu-icon {
         height: 20px;
         display: flex;
+        align-items: center;
         @media #{$res1200} {
             margin-left: 10px;
         }
