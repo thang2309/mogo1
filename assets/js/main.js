@@ -102,7 +102,8 @@ $(document).ready(function() {
 
 
 AOS.init({
-  easing: 'ease-in-out-sine'
+  easing: 'ease-in-out-sine',
+  once :  true
 });
 
 

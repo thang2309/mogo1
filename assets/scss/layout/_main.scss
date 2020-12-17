@@ -129,16 +129,19 @@
     max-width: 1200px;
     text-align: center;
     margin: auto;
+    height: auto;
     span {
         font-family: 'Kaushan Script', cursive;
         font-size: 24px;
+        display: block;
+        font-weight: 400;
     }
     h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-size: 30px;
         position: relative;
-        line-height: 2.3;
+        line-height: 1.7;
         @media #{$res600} {
             line-height: 1.5;
         }
@@ -146,7 +149,7 @@
             content: "";
             position: absolute;
             left: 50%;
-            bottom: -40%;
+            bottom: -30%;
             width: 60px;
             height: 3.5px;
             background-color: #e46e6e;
