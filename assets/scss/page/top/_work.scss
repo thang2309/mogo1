@@ -52,7 +52,7 @@
                     .work__text {
                         position: absolute;
                         left: 0;
-                        top: 37%;
+                        top: 0;
                         z-index: 1;
                         color: #fff;
                         display: none;
@@ -97,9 +97,16 @@
                     .img-07 {
                         &:hover {
                             .work__text {
-                                display: block;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
                                 z-index: 99;
                                 opacity: 1;
+                                height: 100%;
+                                @media #{$res800} {
+                                  height: auto;
+                                }
                             }
                             &::after {
                                 content: "";
