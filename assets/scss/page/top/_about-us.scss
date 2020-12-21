@@ -12,9 +12,10 @@
     .about-us__img {
         @include flex(center, center);
         @media #{$res600} {
-            display: block;
             justify-content: center;
+            display: block;
         }
+        
         .about-us-01,
         .about-us-02,
         .about-us-03 {
@@ -24,7 +25,7 @@
             height: 250px;
             transition: 0.4s;
             background-size: cover;
-
+            margin: 10px;
             @media #{$res1200} {
                 width: 370px;
                 height: 250px;
@@ -33,31 +34,22 @@
                 width: 260px;
                 height: 160px;
             }
-            @media #{$res800} {
-                width: 200px;
-                height: 150px;
-            }
             @media #{$res600} {
-                width: 200px;
                 margin: 10px auto;
-                height: 150px;
             }
+           
             .about-us__content {
-                height: 100%;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                color: white;
-                display: none;
-                font-size: 18px;
-                font-weight: bold;
-                margin: -25px 0 0 -60px;
-                line-height: 1.5;
+              height: 100%;
+              color: white;
+              font-size: 18px;
+              font-weight: bold;
+              line-height: 1.5;
+              display: none;
             }
         }
         .about-us-01 {
             background-image: url("../img/about-us1.png");
-            margin: 15px 15px 15px 0;
+            // margin: 15px 15px 15px 0;
 
             &:hover {
                 background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url('../img/about-us1.png');
@@ -65,7 +57,7 @@
         }
         .about-us-02 {
             background-image: url("../img/about-us2.png");
-            margin: 15px;
+            // margin: 15px;
 
             &:hover {
                 background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url('../img/about-us2.png');
@@ -73,7 +65,7 @@
         }
         .about-us-03 {
             background-image: url("../img/about-us3.png");
-            margin: 15px 0 15px 15px;
+            // margin: 15px 0 15px 15px;
 
             &:hover {
                 background-image: linear-gradient(to bottom, rgba(228, 126, 125, 0.92), rgba(236, 211, 133, 0.92)), url('../img/about-us3.png');
@@ -85,7 +77,12 @@
             transition: 0.4s;
             box-shadow: 10px 10px #82e9d6;
             .about-us__content {
-                display: block;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              align-self: center;
+              height: 100%;
+              flex-direction: column;
             }
         }
     }
