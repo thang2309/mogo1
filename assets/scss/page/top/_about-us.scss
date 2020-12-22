@@ -7,7 +7,7 @@
         margin: 35px auto;
     }
     @media #{$res600} {
-        margin: 30px auto 30px auto;
+        margin: 30px auto;
     }
     .about-us__img {
         @include flex(center, center);
@@ -20,7 +20,6 @@
         .about-us-02,
         .about-us-03 {
             position: relative;
-            width: 100%;
             width: 380px;
             height: 250px;
             transition: 0.4s;
@@ -40,7 +39,7 @@
            
             .about-us__content {
               height: 100%;
-              color: white;
+              color: #fff;
               font-size: 18px;
               font-weight: bold;
               line-height: 1.5;

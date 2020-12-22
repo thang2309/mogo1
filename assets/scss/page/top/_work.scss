@@ -13,9 +13,7 @@
                 max-width: 1700px;
                 margin: auto;
                 justify-content: center;
-                @media #{$res800} {
-                    margin: auto;
-                }
+               
                 // @media #{$info-phone} {
                 //     display: flex;
                 //     margin: 0 20px;
@@ -127,16 +125,14 @@
         
         // feed-back
         .feed-back-01 {
-            max-width: 1200px;
+            
             margin: auto;
             .feed-back__content {
                 display: flex !important;
                 @media #{$res1200} {
                     max-width: 1200px;
                 }
-                @media #{$res600} {
-                    max-width: 1200px;
-                }
+               
                 .content-img {
                     max-width: 80%;
                     width: 65%;
@@ -154,9 +150,7 @@
                     @media #{$res800} {
                         margin-left: 10px;
                     }
-                    @media #{$res600} {
-                        margin-left: 10px;
-                    }
+                   
                     p {
                         font-family: 'Roboto', sans-serif;
                         font-weight: 300;

@@ -7896,7 +7896,7 @@ table {
         -ms-flex-pack: end;
             justify-content: flex-end;
     width: 100%;
-    margin: 0px 30px;
+    margin: 0 30px;
     height: auto;
   }
 }
@@ -7941,7 +7941,7 @@ table {
 
 @media only screen and (max-width: 600px) {
   .about-us {
-    margin: 30px auto 30px auto;
+    margin: 30px auto;
   }
 }
 
@@ -7972,7 +7972,6 @@ table {
 .about-us .about-us__img .about-us-02,
 .about-us .about-us__img .about-us-03 {
   position: relative;
-  width: 100%;
   width: 380px;
   height: 250px;
   -webkit-transition: 0.4s;
@@ -8011,7 +8010,7 @@ table {
 .about-us .about-us__img .about-us-02 .about-us__content,
 .about-us .about-us__img .about-us-03 .about-us__content {
   height: 100%;
-  color: white;
+  color: #fff;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.5;
@@ -8081,7 +8080,7 @@ table {
   margin: auto;
   height: 270px;
   position: relative;
-  color: white;
+  color: #fff;
   background-color: #95E1D3;
   cursor: context-menu;
 }
@@ -8111,18 +8110,18 @@ table {
   text-align: center;
   max-width: 240px;
   width: 100%;
-  padding: 80px 0 0 0;
+  padding-top: 80px;
 }
 
 @media only screen and (max-width: 800px) {
   .count .count--border {
-    padding: 60px 0 0 0;
+    padding-top: 60px;
   }
 }
 
 @media only screen and (max-width: 370px) {
   .count .count--border {
-    padding: 20px 0 0 0;
+    padding-top: 20px;
   }
 }
 
@@ -8399,6 +8398,10 @@ table {
   color: #000;
 }
 
+.container-width {
+  max-width: 1200px;
+}
+
 .service {
   margin: 110px auto 70px auto;
   max-width: 1200px;
@@ -8496,7 +8499,7 @@ table {
 .design {
   width: 100%;
   background-image: url("../img/background-enqui.png");
-  padding: 70px 0 0 0;
+  padding-top: 70px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -8749,7 +8752,6 @@ table {
 }
 
 .feed-back .feed-back-width {
-  max-width: 1200px;
   margin: auto;
   padding: 70px 0;
 }
@@ -8811,10 +8813,9 @@ table {
   font-weight: 300;
   font-style: italic;
   font-size: 24px;
-  margin: 5px 0 7px 0;
+  margin: 5px 10% 7px 0;
   line-height: 1.4;
   color: #9c9a9a;
-  margin-right: 10%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -8950,7 +8951,6 @@ table {
   position: relative;
   background-size: cover;
   margin-bottom: 30px;
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
   -o-object-fit: cover;
@@ -9235,12 +9235,6 @@ table {
           justify-content: center;
 }
 
-@media only screen and (max-width: 800px) {
-  .container-fluid .work {
-    margin: auto;
-  }
-}
-
 .container-fluid .work .work-width {
   width: calc(100%/4);
 }
@@ -9379,7 +9373,6 @@ table {
 }
 
 .feed-back-01 {
-  max-width: 1200px;
   margin: auto;
 }
 
@@ -9390,12 +9383,6 @@ table {
 }
 
 @media only screen and (max-width: 1200px) {
-  .feed-back-01 .feed-back__content {
-    max-width: 1200px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
   .feed-back-01 .feed-back__content {
     max-width: 1200px;
   }
@@ -9423,12 +9410,6 @@ table {
 }
 
 @media only screen and (max-width: 800px) {
-  .feed-back-01 .feed-back__content .content-text {
-    margin-left: 10px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
   .feed-back-01 .feed-back__content .content-text {
     margin-left: 10px;
   }
@@ -10014,7 +9995,7 @@ table {
 .footer .footer__content .footer__content__contact .contact__countFollow span {
   font-weight: bold;
   font-size: 18px;
-  margin: 0 5px 0 0;
+  margin-right: 5px;
 }
 
 .footer .footer__content .footer__content__contact .contact__follow {
@@ -10093,7 +10074,7 @@ table {
 .footer .footer__content .footer__content__contact .contact__sub input {
   border: 1px solid #cccccc;
   border-right: none;
-  padding: 0 0 0 13px;
+  padding-left: 13px;
   width: 230px;
 }
 
@@ -10136,7 +10117,7 @@ table {
 .footer .footer__content .footer__content__contact .contact__sub button {
   background-color: #82e9d6;
   border: 1px solid #82e9d6;
-  color: white;
+  color: #fff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   width: 150px;
@@ -10427,7 +10408,7 @@ table {
   content: "";
   position: absolute;
   top: 0;
-  width: 0%;
+  width: 0;
   height: 2px;
   border-top: 2px solid #db5f5f;
   left: 0;
@@ -10437,7 +10418,7 @@ table {
 }
 
 .banner .banner__content ul li:hover::before {
-  color: white;
+  color: #fff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -10467,7 +10448,7 @@ table {
 }
 
 .banner .banner__content ul li a:hover {
-  color: white;
+  color: #fff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -10475,6 +10456,6 @@ table {
 .banner .banner__content ul li a span {
   font-weight: bold;
   font-size: 17px;
-  padding: 0 5px 0 0;
+  padding-right: 5px;
 }
 /*# sourceMappingURL=main.css.map */
