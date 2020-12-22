@@ -1,7 +1,7 @@
 .feed-back {
     background-color: #f8f8f8f8;
     .feed-back-width {
-        max-width: 1200px;
+       
         margin: auto;
         padding: 70px 0;
         .feed-back__content {
@@ -66,10 +66,9 @@
                     font-weight: 300;
                     font-style: italic;
                     font-size: 24px;
-                    margin: 5px 0 7px 0;
+                    margin: 5px 10% 7px 0;
                     line-height: 1.4;
                     color: #9c9a9a;
-                    margin-right: 10%;
                     @media #{$res800} {
                         font-size: 15px;
                     }

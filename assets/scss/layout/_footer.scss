@@ -91,7 +91,7 @@
                         span {
                             font-weight: bold;
                             font-size: 18px;
-                            margin: 0 5px 0 0;
+                            margin-right: 5px;
                         }
                         font-size: 15px;
                     }
@@ -142,7 +142,7 @@
                         input {
                             border: 1px solid #cccccc;
                             border-right: none;
-                            padding: 0 0 0 13px;
+                            padding-left: 13px;
                             width: 230px;
                             &::placeholder {
                                 font-family: 'Roboto', sans-serif;
@@ -159,7 +159,7 @@
                         button {
                             background-color: #82e9d6;
                             border: 1px solid #82e9d6;
-                            color: white;
+                            color: #fff;
                             transition: 0.4s;
                             width: 150px;
                             &:hover {
