@@ -1,6 +1,6 @@
 .service {
     margin: 110px auto 70px auto;
-    max-width: 1200px;
+    
     @media #{$res800} {
         margin: 50px auto;
     }
